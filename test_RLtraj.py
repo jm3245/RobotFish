@@ -67,9 +67,9 @@ def main(args, visualize=False, numWaypoints=20, period=400):
 
     model = None
     if args.policy == "SAC":
-        model = SAC("MlpPolicy", env, policy_kwargs={"net_arch": args.net_arch}, train_freq=args.train_freq, learning_starts=args.learningStarts, learning_rate=args.learningRate, batch_size=args.batchSize, gamma=args.gamma, tau=args.tau, device="cpu", verbose=0, seed=SEED) 
+        model = SAC("MlpPolicy", env, policy_kwargs={"net_arch": args.net_arch}, train_freq=args.train_freq, learning_starts=args.learningStarts, learning_rate=args.learningRate, batch_size=args.batchSize, gamma=args.gamma, tau=args.tau, device="cuda", verbose=0, seed=SEED) 
     elif args.policy == "PPO":
-        model = PPO("MlpPolicy", env, policy_kwargs={"net_arch": args.net_arch}, learning_rate=args.learningRate, batch_size=args.batchSize, vf_coef=args.vf_coef, ent_coef=args.ent_coef, gamma=args.gamma, device="cpu", verbose=0, seed=SEED)
+        model = PPO("MlpPolicy", env, policy_kwargs={"net_arch": args.net_arch}, learning_rate=args.learningRate, batch_size=args.batchSize, vf_coef=args.vf_coef, ent_coef=args.ent_coef, gamma=args.gamma, device="cuda", verbose=0, seed=SEED)
 
     # Print number of parameters
     numParams = 0

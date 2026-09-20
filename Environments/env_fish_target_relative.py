@@ -118,6 +118,8 @@ class FishEnv (MujocoEnv, utils.EzPickle):
     def step (self, action):
         self.nStep += 1
 
+        d_prev = float(self._get_obs()[self.observationIndices["distanceTarget"]])
+
         # Action as acceleration
         action_velocity = self.data.qvel[6:7].copy() + self.actionMultiplier * action * self.dt
         self.do_simulation(action_velocity, self.frame_skip)
@@ -131,11 +133,17 @@ class FishEnv (MujocoEnv, utils.EzPickle):
         com = self.data.site("COM_0").xpos
         terminated = (not self.noterminate) and bool(float(observation[self.observationIndices["distanceTarget"]]) < 0.05)
 
-        rewardDistance = -float(observation[self.observationIndices["distanceTarget"]])
+        d_new = float(observation[self.observationIndices["distanceTarget"]])
+        rewardProgress = d_prev - d_new
         rewardAction = -np.linalg.norm(action)
-        rewardSuccess = 300.0 if terminated else 0.0
+        terminated = d_new < 0.05
+        reward = float(
+            20.0 * rewardProgress
+            + 0.01 * rewardAction
+            + (100.0 if terminated else 0.0)
+        )
 
-        reward = float(rewardDistance + 1.0 * rewardAction + rewardSuccess)
+
 
         self.currentEpisodeReward += reward
         self.prevAction = action.copy()
@@ -143,14 +151,15 @@ class FishEnv (MujocoEnv, utils.EzPickle):
         ### Logging
         if self.nStep % 100 == 0:
             print(f"\
-Step {self.nStep:,} in {time.time()-self.startTime:.2f}s: \
- |  COM: [{self.data.site('COM_0').xpos[0]:+.2f}, {self.data.site('COM_0').xpos[1]:+.2f}, {self.data.site('COM_0').xpos[2]:+.2f}] \
- |  Target: [{self.target[0]:+.2f}, {self.target[1]:+.2f}] \
- |  Distance: {observation[self.observationIndices['distanceTarget']][0]:.4f} \
- |  Ctrl: [{self.data.ctrl[0]:+.2f}] \
- |  Action: [{action[0]:+.4f}] \
- |  Reward: {reward:.4f}\
-            ")
+                Step {self.nStep:,} in {time.time()-self.startTime:.2f}s: \
+                |  COM: [{self.data.site('COM_0').xpos[0]:+.2f}, {self.data.site('COM_0').xpos[1]:+.2f}, {self.data.site('COM_0').xpos[2]:+.2f}] \
+                |  Target: [{self.target[0]:+.2f}, {self.target[1]:+.2f}] \
+                |  Distance: {observation[self.observationIndices['distanceTarget']][0]:.4f} \
+                |  ProximityGain: {rewardProgress:.4f} \
+                |  Ctrl: [{self.data.ctrl[0]:+.2f}] \
+                |  Action: [{action[0]:+.4f}] \
+                |  Reward: {reward:.4f}\
+                            ")
 
             if self.plotHistogram:
                 nCols = 7
@@ -173,6 +182,7 @@ Step {self.nStep:,} in {time.time()-self.startTime:.2f}s: \
             self.render()
         # truncation=False as the time limit is handled by the `TimeLimit` wrapper added during `make`
         return observation, reward, terminated, False, info
+
 
 
     def reset_model (self):

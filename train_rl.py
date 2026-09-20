@@ -10,6 +10,9 @@ import matplotlib
 import matplotlib.pyplot as plt
 matplotlib.use('agg')
 
+# matplotlib.rcParams['text.usetex'] = False
+
+
 from stable_baselines3 import PPO, SAC
 from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.env_checker import check_env
@@ -18,7 +21,8 @@ from stable_baselines3.common.results_plotter import load_results, ts2xy
 
 import wandb
 # Set wandb environment variable
-os.environ["WANDB_MODE"] = "offline"
+os.environ["WANDB_MODE"] = "online"
+wandb.init(project="fish_rl")  # Replace with your WandB username
 
 import Environments.env_fish_target_relative as env_fish_target_relative
 
@@ -123,9 +127,9 @@ def main(args):
 
     model = None
     if args.policy == "SAC":
-        model = SAC("MlpPolicy", env, policy_kwargs={"net_arch": args.net_arch}, train_freq=args.train_freq, learning_starts=args.learningStarts, learning_rate=args.learningRate, batch_size=args.batchSize, gamma=args.gamma, tau=args.tau, device="cpu", verbose=0, seed=SEED) 
+        model = SAC("MlpPolicy", env, policy_kwargs={"net_arch": args.net_arch}, train_freq=args.train_freq, learning_starts=args.learningStarts, learning_rate=args.learningRate, batch_size=args.batchSize, gamma=args.gamma, tau=args.tau, device="cuda", verbose=1, seed=SEED) 
     elif args.policy == "PPO":
-        model = PPO("MlpPolicy", env, policy_kwargs={"net_arch": args.net_arch}, learning_rate=args.learningRate, batch_size=args.batchSize, vf_coef=args.vf_coef, ent_coef=args.ent_coef, gamma=args.gamma, device="cpu", verbose=0, seed=SEED)
+        model = PPO("MlpPolicy", env, policy_kwargs={"net_arch": args.net_arch}, learning_rate=args.learningRate, batch_size=args.batchSize, vf_coef=args.vf_coef, ent_coef=args.ent_coef, gamma=args.gamma, device="cuda", verbose=1, seed=SEED)
 
     # Print number of parameters
     numParams = 0
@@ -315,12 +319,12 @@ if __name__ == "__main__":
     parser.add_argument("--env", type=str, default="fish_target_relative-v0", choices=["fish_target_relative-v0"], help="Environment to use (default: fish_target_relative-v0).")
     parser.add_argument("--eval", action="store_true", help="Evaluate the model instead of training.")
     parser.add_argument("--load", action="store_true", help="Load a pre-trained model instead of training from scratch.")
-    parser.add_argument("--nSteps", type=int, default=5_000_000, help="Number of environment steps.")
+    parser.add_argument("--nSteps", type=int, default=10_000_000, help="Number of environment steps.")
     parser.add_argument("--policy", type=str, default="SAC", choices=["PPO", "SAC"], help="RL policy to use (default: SAC).")
 
     parser.add_argument("--net_arch", type=list, default=[128, 128], help="Network architecture for the policy.")
     parser.add_argument("--learningRate", type=float, default=2e-3, help="Learning rate for the optimizer.")
-    parser.add_argument("--batchSize", type=int, default=256, help="Batch size for training.")
+    parser.add_argument("--batchSize", type=int, default=512, help="Batch size for training.")
 
     parser.add_argument("--maxEpisodeSteps", type=int, default=400, help="Maximum number of steps per episode.")
     parser.add_argument("--actionMultiplier", type=float, default=400, help="Multiplier for the action space.")
@@ -340,6 +344,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
+
+
     # args.net_arch = [659, 659, 659, 659]
     # args.actionMultiplier = 423.3954337821436
     # args.batchSize = 664
@@ -351,9 +357,11 @@ if __name__ == "__main__":
     # args.nSteps = 3_000_000
 
     args.net_arch = [1123, 1123, 1123, 1123]
+    args.net_arch = [265, 256, 256]
     args.actionMultiplier = 451.6423199890723
     args.maxEpisodeSteps = 1000
 
+    wandb.config.update(args)
 
     log = main(args)
 
