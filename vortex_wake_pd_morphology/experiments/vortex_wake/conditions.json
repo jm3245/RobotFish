@@ -1,0 +1,32 @@
+{
+  "name": "cylinder_vortex_wake_preparation",
+  "status": "preparation_only_no_closed_loop_wake_benchmark",
+  "paper_reference": "../../references/paper_zh_translation.pdf",
+  "cylinder_only_model": "../../models/fish_N4_cylinder_only.xml",
+  "cylinder_only_generator": "../../make_cylinder_control.py",
+  "cylinder_only_world_center_xy_m": [
+    2.0,
+    0.0
+  ],
+  "cylinder_only_diameter_m": 0.7,
+  "cylinder_only_uniform_wind_m_s": [
+    0.4,
+    0.0,
+    0.0
+  ],
+  "cylinder_only_effect": "MuJoCo solid geometry; no wake generation and no fish collision with current fish geom flags",
+  "kinematic_preview_module": "../../wake_preview.py",
+  "kinematic_preview_image": "../../wake_field_preview.png",
+  "kinematic_preview_cylinder_center_xy_m": [
+    0.0,
+    0.0
+  ],
+  "kinematic_preview_background_flow_m_s": 0.4,
+  "kinematic_preview_diameter_m": 0.7,
+  "kinematic_preview_time_s": 1.0,
+  "kinematic_preview_effect": "velocity(x,y,t) and finite-difference gradient are available for visualization only; no coupling to fish body forces",
+  "paired_scene_file": null,
+  "wake_arrival_results": null,
+  "note": "The two original preparation entries remain separate. A new prescribed finite-vortex-train benchmark is available in ../front180_wake with local body drag coupling; it is not CFD.",
+  "new_analytic_coupled_benchmark": "../front180_wake/README_zh.md"
+}

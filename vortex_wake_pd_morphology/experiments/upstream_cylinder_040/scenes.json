@@ -1,0 +1,5002 @@
+{
+  "U00_00": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      0.8816778784387097,
+      -1.2135254915624212
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U00_00",
+    "goal_bearing_deg": -54,
+    "flow_relative_deg": 234,
+    "flow_world_deg": 180,
+    "goal_distance_m": 1.5,
+    "initial_yaw_offset_deg": 54
+  },
+  "U00_01": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.1755705045849463,
+      -1.618033988749895
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U00_01",
+    "goal_bearing_deg": -54,
+    "flow_relative_deg": 234,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.0,
+    "initial_yaw_offset_deg": 54
+  },
+  "U00_02": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.469463130731183,
+      -2.0225424859373686
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U00_02",
+    "goal_bearing_deg": -54,
+    "flow_relative_deg": 234,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.5,
+    "initial_yaw_offset_deg": 54
+  },
+  "U00_03": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.7633557568774194,
+      -2.4270509831248424
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U00_03",
+    "goal_bearing_deg": -54,
+    "flow_relative_deg": 234,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.0,
+    "initial_yaw_offset_deg": 54
+  },
+  "U00_04": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.057248383023656,
+      -2.831559480312316
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U00_04",
+    "goal_bearing_deg": -54,
+    "flow_relative_deg": 234,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.5,
+    "initial_yaw_offset_deg": 54
+  },
+  "U00_05": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.3511410091698925,
+      -3.23606797749979
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U00_05",
+    "goal_bearing_deg": -54,
+    "flow_relative_deg": 234,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.0,
+    "initial_yaw_offset_deg": 54
+  },
+  "U00_06": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.6450336353161292,
+      -3.6405764746872635
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U00_06",
+    "goal_bearing_deg": -54,
+    "flow_relative_deg": 234,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.5,
+    "initial_yaw_offset_deg": 54
+  },
+  "U00_07": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.938926261462366,
+      -4.045084971874737
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U00_07",
+    "goal_bearing_deg": -54,
+    "flow_relative_deg": 234,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.0,
+    "initial_yaw_offset_deg": 54
+  },
+  "U00_08": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.232818887608602,
+      -4.449593469062211
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U00_08",
+    "goal_bearing_deg": -54,
+    "flow_relative_deg": 234,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.5,
+    "initial_yaw_offset_deg": 54
+  },
+  "U00_09": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.526711513754839,
+      -4.854101966249685
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U00_09",
+    "goal_bearing_deg": -54,
+    "flow_relative_deg": 234,
+    "flow_world_deg": 180,
+    "goal_distance_m": 6.0,
+    "initial_yaw_offset_deg": 54
+  },
+  "U01_00": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.1147172382160915,
+      -1.0036959095382874
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U01_00",
+    "goal_bearing_deg": -42,
+    "flow_relative_deg": 222,
+    "flow_world_deg": 180,
+    "goal_distance_m": 1.5,
+    "initial_yaw_offset_deg": 42
+  },
+  "U01_01": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.4862896509547885,
+      -1.3382612127177165
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U01_01",
+    "goal_bearing_deg": -42,
+    "flow_relative_deg": 222,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.0,
+    "initial_yaw_offset_deg": 42
+  },
+  "U01_02": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.8578620636934855,
+      -1.6728265158971456
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U01_02",
+    "goal_bearing_deg": -42,
+    "flow_relative_deg": 222,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.5,
+    "initial_yaw_offset_deg": 42
+  },
+  "U01_03": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.229434476432183,
+      -2.0073918190765747
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U01_03",
+    "goal_bearing_deg": -42,
+    "flow_relative_deg": 222,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.0,
+    "initial_yaw_offset_deg": 42
+  },
+  "U01_04": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.60100688917088,
+      -2.341957122256004
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U01_04",
+    "goal_bearing_deg": -42,
+    "flow_relative_deg": 222,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.5,
+    "initial_yaw_offset_deg": 42
+  },
+  "U01_05": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.972579301909577,
+      -2.676522425435433
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U01_05",
+    "goal_bearing_deg": -42,
+    "flow_relative_deg": 222,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.0,
+    "initial_yaw_offset_deg": 42
+  },
+  "U01_06": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.344151714648274,
+      -3.011087728614862
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U01_06",
+    "goal_bearing_deg": -42,
+    "flow_relative_deg": 222,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.5,
+    "initial_yaw_offset_deg": 42
+  },
+  "U01_07": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.715724127386971,
+      -3.345653031794291
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U01_07",
+    "goal_bearing_deg": -42,
+    "flow_relative_deg": 222,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.0,
+    "initial_yaw_offset_deg": 42
+  },
+  "U01_08": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.087296540125668,
+      -3.6802183349737203
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U01_08",
+    "goal_bearing_deg": -42,
+    "flow_relative_deg": 222,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.5,
+    "initial_yaw_offset_deg": 42
+  },
+  "U01_09": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.458868952864366,
+      -4.014783638153149
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U01_09",
+    "goal_bearing_deg": -42,
+    "flow_relative_deg": 222,
+    "flow_world_deg": 180,
+    "goal_distance_m": 6.0,
+    "initial_yaw_offset_deg": 42
+  },
+  "U02_00": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.299038105676658,
+      -0.7499999999999999
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U02_00",
+    "goal_bearing_deg": -30,
+    "flow_relative_deg": 210,
+    "flow_world_deg": 180,
+    "goal_distance_m": 1.5,
+    "initial_yaw_offset_deg": 30
+  },
+  "U02_01": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.7320508075688774,
+      -0.9999999999999999
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U02_01",
+    "goal_bearing_deg": -30,
+    "flow_relative_deg": 210,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.0,
+    "initial_yaw_offset_deg": 30
+  },
+  "U02_02": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.165063509461097,
+      -1.2499999999999998
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U02_02",
+    "goal_bearing_deg": -30,
+    "flow_relative_deg": 210,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.5,
+    "initial_yaw_offset_deg": 30
+  },
+  "U02_03": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.598076211353316,
+      -1.4999999999999998
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U02_03",
+    "goal_bearing_deg": -30,
+    "flow_relative_deg": 210,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.0,
+    "initial_yaw_offset_deg": 30
+  },
+  "U02_04": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.0310889132455356,
+      -1.7499999999999998
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U02_04",
+    "goal_bearing_deg": -30,
+    "flow_relative_deg": 210,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.5,
+    "initial_yaw_offset_deg": 30
+  },
+  "U02_05": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.464101615137755,
+      -1.9999999999999998
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U02_05",
+    "goal_bearing_deg": -30,
+    "flow_relative_deg": 210,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.0,
+    "initial_yaw_offset_deg": 30
+  },
+  "U02_06": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.897114317029974,
+      -2.2499999999999996
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U02_06",
+    "goal_bearing_deg": -30,
+    "flow_relative_deg": 210,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.5,
+    "initial_yaw_offset_deg": 30
+  },
+  "U02_07": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.330127018922194,
+      -2.4999999999999996
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U02_07",
+    "goal_bearing_deg": -30,
+    "flow_relative_deg": 210,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.0,
+    "initial_yaw_offset_deg": 30
+  },
+  "U02_08": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.763139720814413,
+      -2.7499999999999996
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U02_08",
+    "goal_bearing_deg": -30,
+    "flow_relative_deg": 210,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.5,
+    "initial_yaw_offset_deg": 30
+  },
+  "U02_09": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      5.196152422706632,
+      -2.9999999999999996
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U02_09",
+    "goal_bearing_deg": -30,
+    "flow_relative_deg": 210,
+    "flow_world_deg": 180,
+    "goal_distance_m": 6.0,
+    "initial_yaw_offset_deg": 30
+  },
+  "U03_00": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.4265847744427302,
+      -0.46352549156242107
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U03_00",
+    "goal_bearing_deg": -18,
+    "flow_relative_deg": 198,
+    "flow_world_deg": 180,
+    "goal_distance_m": 1.5,
+    "initial_yaw_offset_deg": 18
+  },
+  "U03_01": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.902113032590307,
+      -0.6180339887498948
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U03_01",
+    "goal_bearing_deg": -18,
+    "flow_relative_deg": 198,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.0,
+    "initial_yaw_offset_deg": 18
+  },
+  "U03_02": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.3776412907378837,
+      -0.7725424859373685
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U03_02",
+    "goal_bearing_deg": -18,
+    "flow_relative_deg": 198,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.5,
+    "initial_yaw_offset_deg": 18
+  },
+  "U03_03": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.8531695488854605,
+      -0.9270509831248421
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U03_03",
+    "goal_bearing_deg": -18,
+    "flow_relative_deg": 198,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.0,
+    "initial_yaw_offset_deg": 18
+  },
+  "U03_04": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.3286978070330373,
+      -1.0815594803123159
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U03_04",
+    "goal_bearing_deg": -18,
+    "flow_relative_deg": 198,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.5,
+    "initial_yaw_offset_deg": 18
+  },
+  "U03_05": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.804226065180614,
+      -1.2360679774997896
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U03_05",
+    "goal_bearing_deg": -18,
+    "flow_relative_deg": 198,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.0,
+    "initial_yaw_offset_deg": 18
+  },
+  "U03_06": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.2797543233281905,
+      -1.3905764746872633
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U03_06",
+    "goal_bearing_deg": -18,
+    "flow_relative_deg": 198,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.5,
+    "initial_yaw_offset_deg": 18
+  },
+  "U03_07": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.755282581475767,
+      -1.545084971874737
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U03_07",
+    "goal_bearing_deg": -18,
+    "flow_relative_deg": 198,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.0,
+    "initial_yaw_offset_deg": 18
+  },
+  "U03_08": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      5.230810839623344,
+      -1.6995934690622108
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U03_08",
+    "goal_bearing_deg": -18,
+    "flow_relative_deg": 198,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.5,
+    "initial_yaw_offset_deg": 18
+  },
+  "U03_09": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      5.706339097770921,
+      -1.8541019662496843
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U03_09",
+    "goal_bearing_deg": -18,
+    "flow_relative_deg": 198,
+    "flow_world_deg": 180,
+    "goal_distance_m": 6.0,
+    "initial_yaw_offset_deg": 18
+  },
+  "U04_00": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.4917828430524098,
+      -0.1567926949014802
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U04_00",
+    "goal_bearing_deg": -6,
+    "flow_relative_deg": 186,
+    "flow_world_deg": 180,
+    "goal_distance_m": 1.5,
+    "initial_yaw_offset_deg": 6
+  },
+  "U04_01": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.9890437907365466,
+      -0.20905692653530694
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U04_01",
+    "goal_bearing_deg": -6,
+    "flow_relative_deg": 186,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.0,
+    "initial_yaw_offset_deg": 6
+  },
+  "U04_02": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.4863047384206833,
+      -0.2613211581691337
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U04_02",
+    "goal_bearing_deg": -6,
+    "flow_relative_deg": 186,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.5,
+    "initial_yaw_offset_deg": 6
+  },
+  "U04_03": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.9835656861048196,
+      -0.3135853898029604
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U04_03",
+    "goal_bearing_deg": -6,
+    "flow_relative_deg": 186,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.0,
+    "initial_yaw_offset_deg": 6
+  },
+  "U04_04": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.4808266337889564,
+      -0.3658496214367871
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U04_04",
+    "goal_bearing_deg": -6,
+    "flow_relative_deg": 186,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.5,
+    "initial_yaw_offset_deg": 6
+  },
+  "U04_05": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.978087581473093,
+      -0.4181138530706139
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U04_05",
+    "goal_bearing_deg": -6,
+    "flow_relative_deg": 186,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.0,
+    "initial_yaw_offset_deg": 6
+  },
+  "U04_06": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.4753485291572295,
+      -0.47037808470444065
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U04_06",
+    "goal_bearing_deg": -6,
+    "flow_relative_deg": 186,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.5,
+    "initial_yaw_offset_deg": 6
+  },
+  "U04_07": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.972609476841367,
+      -0.5226423163382674
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U04_07",
+    "goal_bearing_deg": -6,
+    "flow_relative_deg": 186,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.0,
+    "initial_yaw_offset_deg": 6
+  },
+  "U04_08": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      5.469870424525503,
+      -0.5749065479720941
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U04_08",
+    "goal_bearing_deg": -6,
+    "flow_relative_deg": 186,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.5,
+    "initial_yaw_offset_deg": 6
+  },
+  "U04_09": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      5.967131372209639,
+      -0.6271707796059208
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U04_09",
+    "goal_bearing_deg": -6,
+    "flow_relative_deg": 186,
+    "flow_world_deg": 180,
+    "goal_distance_m": 6.0,
+    "initial_yaw_offset_deg": 6
+  },
+  "U05_00": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.4917828430524098,
+      0.1567926949014802
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U05_00",
+    "goal_bearing_deg": 6,
+    "flow_relative_deg": 174,
+    "flow_world_deg": 180,
+    "goal_distance_m": 1.5,
+    "initial_yaw_offset_deg": -6
+  },
+  "U05_01": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.9890437907365466,
+      0.20905692653530694
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U05_01",
+    "goal_bearing_deg": 6,
+    "flow_relative_deg": 174,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.0,
+    "initial_yaw_offset_deg": -6
+  },
+  "U05_02": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.4863047384206833,
+      0.2613211581691337
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U05_02",
+    "goal_bearing_deg": 6,
+    "flow_relative_deg": 174,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.5,
+    "initial_yaw_offset_deg": -6
+  },
+  "U05_03": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.9835656861048196,
+      0.3135853898029604
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U05_03",
+    "goal_bearing_deg": 6,
+    "flow_relative_deg": 174,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.0,
+    "initial_yaw_offset_deg": -6
+  },
+  "U05_04": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.4808266337889564,
+      0.3658496214367871
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U05_04",
+    "goal_bearing_deg": 6,
+    "flow_relative_deg": 174,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.5,
+    "initial_yaw_offset_deg": -6
+  },
+  "U05_05": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.978087581473093,
+      0.4181138530706139
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U05_05",
+    "goal_bearing_deg": 6,
+    "flow_relative_deg": 174,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.0,
+    "initial_yaw_offset_deg": -6
+  },
+  "U05_06": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.4753485291572295,
+      0.47037808470444065
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U05_06",
+    "goal_bearing_deg": 6,
+    "flow_relative_deg": 174,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.5,
+    "initial_yaw_offset_deg": -6
+  },
+  "U05_07": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.972609476841367,
+      0.5226423163382674
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U05_07",
+    "goal_bearing_deg": 6,
+    "flow_relative_deg": 174,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.0,
+    "initial_yaw_offset_deg": -6
+  },
+  "U05_08": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      5.469870424525503,
+      0.5749065479720941
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U05_08",
+    "goal_bearing_deg": 6,
+    "flow_relative_deg": 174,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.5,
+    "initial_yaw_offset_deg": -6
+  },
+  "U05_09": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      5.967131372209639,
+      0.6271707796059208
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U05_09",
+    "goal_bearing_deg": 6,
+    "flow_relative_deg": 174,
+    "flow_world_deg": 180,
+    "goal_distance_m": 6.0,
+    "initial_yaw_offset_deg": -6
+  },
+  "U06_00": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.4265847744427302,
+      0.46352549156242107
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U06_00",
+    "goal_bearing_deg": 18,
+    "flow_relative_deg": 162,
+    "flow_world_deg": 180,
+    "goal_distance_m": 1.5,
+    "initial_yaw_offset_deg": -18
+  },
+  "U06_01": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.902113032590307,
+      0.6180339887498948
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U06_01",
+    "goal_bearing_deg": 18,
+    "flow_relative_deg": 162,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.0,
+    "initial_yaw_offset_deg": -18
+  },
+  "U06_02": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.3776412907378837,
+      0.7725424859373685
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U06_02",
+    "goal_bearing_deg": 18,
+    "flow_relative_deg": 162,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.5,
+    "initial_yaw_offset_deg": -18
+  },
+  "U06_03": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.8531695488854605,
+      0.9270509831248421
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U06_03",
+    "goal_bearing_deg": 18,
+    "flow_relative_deg": 162,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.0,
+    "initial_yaw_offset_deg": -18
+  },
+  "U06_04": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.3286978070330373,
+      1.0815594803123159
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U06_04",
+    "goal_bearing_deg": 18,
+    "flow_relative_deg": 162,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.5,
+    "initial_yaw_offset_deg": -18
+  },
+  "U06_05": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.804226065180614,
+      1.2360679774997896
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U06_05",
+    "goal_bearing_deg": 18,
+    "flow_relative_deg": 162,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.0,
+    "initial_yaw_offset_deg": -18
+  },
+  "U06_06": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.2797543233281905,
+      1.3905764746872633
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U06_06",
+    "goal_bearing_deg": 18,
+    "flow_relative_deg": 162,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.5,
+    "initial_yaw_offset_deg": -18
+  },
+  "U06_07": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.755282581475767,
+      1.545084971874737
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U06_07",
+    "goal_bearing_deg": 18,
+    "flow_relative_deg": 162,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.0,
+    "initial_yaw_offset_deg": -18
+  },
+  "U06_08": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      5.230810839623344,
+      1.6995934690622108
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U06_08",
+    "goal_bearing_deg": 18,
+    "flow_relative_deg": 162,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.5,
+    "initial_yaw_offset_deg": -18
+  },
+  "U06_09": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      5.706339097770921,
+      1.8541019662496843
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U06_09",
+    "goal_bearing_deg": 18,
+    "flow_relative_deg": 162,
+    "flow_world_deg": 180,
+    "goal_distance_m": 6.0,
+    "initial_yaw_offset_deg": -18
+  },
+  "U07_00": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.299038105676658,
+      0.7499999999999999
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U07_00",
+    "goal_bearing_deg": 30,
+    "flow_relative_deg": 150,
+    "flow_world_deg": 180,
+    "goal_distance_m": 1.5,
+    "initial_yaw_offset_deg": -30
+  },
+  "U07_01": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.7320508075688774,
+      0.9999999999999999
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U07_01",
+    "goal_bearing_deg": 30,
+    "flow_relative_deg": 150,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.0,
+    "initial_yaw_offset_deg": -30
+  },
+  "U07_02": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.165063509461097,
+      1.2499999999999998
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U07_02",
+    "goal_bearing_deg": 30,
+    "flow_relative_deg": 150,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.5,
+    "initial_yaw_offset_deg": -30
+  },
+  "U07_03": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.598076211353316,
+      1.4999999999999998
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U07_03",
+    "goal_bearing_deg": 30,
+    "flow_relative_deg": 150,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.0,
+    "initial_yaw_offset_deg": -30
+  },
+  "U07_04": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.0310889132455356,
+      1.7499999999999998
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U07_04",
+    "goal_bearing_deg": 30,
+    "flow_relative_deg": 150,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.5,
+    "initial_yaw_offset_deg": -30
+  },
+  "U07_05": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.464101615137755,
+      1.9999999999999998
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U07_05",
+    "goal_bearing_deg": 30,
+    "flow_relative_deg": 150,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.0,
+    "initial_yaw_offset_deg": -30
+  },
+  "U07_06": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.897114317029974,
+      2.2499999999999996
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U07_06",
+    "goal_bearing_deg": 30,
+    "flow_relative_deg": 150,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.5,
+    "initial_yaw_offset_deg": -30
+  },
+  "U07_07": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.330127018922194,
+      2.4999999999999996
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U07_07",
+    "goal_bearing_deg": 30,
+    "flow_relative_deg": 150,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.0,
+    "initial_yaw_offset_deg": -30
+  },
+  "U07_08": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.763139720814413,
+      2.7499999999999996
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U07_08",
+    "goal_bearing_deg": 30,
+    "flow_relative_deg": 150,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.5,
+    "initial_yaw_offset_deg": -30
+  },
+  "U07_09": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      5.196152422706632,
+      2.9999999999999996
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U07_09",
+    "goal_bearing_deg": 30,
+    "flow_relative_deg": 150,
+    "flow_world_deg": 180,
+    "goal_distance_m": 6.0,
+    "initial_yaw_offset_deg": -30
+  },
+  "U08_00": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.1147172382160915,
+      1.0036959095382874
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U08_00",
+    "goal_bearing_deg": 42,
+    "flow_relative_deg": 138,
+    "flow_world_deg": 180,
+    "goal_distance_m": 1.5,
+    "initial_yaw_offset_deg": -42
+  },
+  "U08_01": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.4862896509547885,
+      1.3382612127177165
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U08_01",
+    "goal_bearing_deg": 42,
+    "flow_relative_deg": 138,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.0,
+    "initial_yaw_offset_deg": -42
+  },
+  "U08_02": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.8578620636934855,
+      1.6728265158971456
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U08_02",
+    "goal_bearing_deg": 42,
+    "flow_relative_deg": 138,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.5,
+    "initial_yaw_offset_deg": -42
+  },
+  "U08_03": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.229434476432183,
+      2.0073918190765747
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U08_03",
+    "goal_bearing_deg": 42,
+    "flow_relative_deg": 138,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.0,
+    "initial_yaw_offset_deg": -42
+  },
+  "U08_04": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.60100688917088,
+      2.341957122256004
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U08_04",
+    "goal_bearing_deg": 42,
+    "flow_relative_deg": 138,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.5,
+    "initial_yaw_offset_deg": -42
+  },
+  "U08_05": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.972579301909577,
+      2.676522425435433
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U08_05",
+    "goal_bearing_deg": 42,
+    "flow_relative_deg": 138,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.0,
+    "initial_yaw_offset_deg": -42
+  },
+  "U08_06": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.344151714648274,
+      3.011087728614862
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U08_06",
+    "goal_bearing_deg": 42,
+    "flow_relative_deg": 138,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.5,
+    "initial_yaw_offset_deg": -42
+  },
+  "U08_07": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.715724127386971,
+      3.345653031794291
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U08_07",
+    "goal_bearing_deg": 42,
+    "flow_relative_deg": 138,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.0,
+    "initial_yaw_offset_deg": -42
+  },
+  "U08_08": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.087296540125668,
+      3.6802183349737203
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U08_08",
+    "goal_bearing_deg": 42,
+    "flow_relative_deg": 138,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.5,
+    "initial_yaw_offset_deg": -42
+  },
+  "U08_09": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      4.458868952864366,
+      4.014783638153149
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U08_09",
+    "goal_bearing_deg": 42,
+    "flow_relative_deg": 138,
+    "flow_world_deg": 180,
+    "goal_distance_m": 6.0,
+    "initial_yaw_offset_deg": -42
+  },
+  "U09_00": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      0.8816778784387097,
+      1.2135254915624212
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U09_00",
+    "goal_bearing_deg": 54,
+    "flow_relative_deg": 126,
+    "flow_world_deg": 180,
+    "goal_distance_m": 1.5,
+    "initial_yaw_offset_deg": -54
+  },
+  "U09_01": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.1755705045849463,
+      1.618033988749895
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U09_01",
+    "goal_bearing_deg": 54,
+    "flow_relative_deg": 126,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.0,
+    "initial_yaw_offset_deg": -54
+  },
+  "U09_02": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.469463130731183,
+      2.0225424859373686
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U09_02",
+    "goal_bearing_deg": 54,
+    "flow_relative_deg": 126,
+    "flow_world_deg": 180,
+    "goal_distance_m": 2.5,
+    "initial_yaw_offset_deg": -54
+  },
+  "U09_03": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      1.7633557568774194,
+      2.4270509831248424
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U09_03",
+    "goal_bearing_deg": 54,
+    "flow_relative_deg": 126,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.0,
+    "initial_yaw_offset_deg": -54
+  },
+  "U09_04": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.057248383023656,
+      2.831559480312316
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U09_04",
+    "goal_bearing_deg": 54,
+    "flow_relative_deg": 126,
+    "flow_world_deg": 180,
+    "goal_distance_m": 3.5,
+    "initial_yaw_offset_deg": -54
+  },
+  "U09_05": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.3511410091698925,
+      3.23606797749979
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U09_05",
+    "goal_bearing_deg": 54,
+    "flow_relative_deg": 126,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.0,
+    "initial_yaw_offset_deg": -54
+  },
+  "U09_06": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.6450336353161292,
+      3.6405764746872635
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U09_06",
+    "goal_bearing_deg": 54,
+    "flow_relative_deg": 126,
+    "flow_world_deg": 180,
+    "goal_distance_m": 4.5,
+    "initial_yaw_offset_deg": -54
+  },
+  "U09_07": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      2.938926261462366,
+      4.045084971874737
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U09_07",
+    "goal_bearing_deg": 54,
+    "flow_relative_deg": 126,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.0,
+    "initial_yaw_offset_deg": -54
+  },
+  "U09_08": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.232818887608602,
+      4.449593469062211
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U09_08",
+    "goal_bearing_deg": 54,
+    "flow_relative_deg": 126,
+    "flow_world_deg": 180,
+    "goal_distance_m": 5.5,
+    "initial_yaw_offset_deg": -54
+  },
+  "U09_09": {
+    "start": [
+      0.0,
+      0.0
+    ],
+    "target": [
+      3.526711513754839,
+      4.854101966249685
+    ],
+    "yaw": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "flow": "constant",
+    "flow_base": [
+      -0.4,
+      0.0,
+      0.0
+    ],
+    "flow_phase": 0.0,
+    "flow_freq": 0.25,
+    "case_id": "U09_09",
+    "goal_bearing_deg": 54,
+    "flow_relative_deg": 126,
+    "flow_world_deg": 180,
+    "goal_distance_m": 6.0,
+    "initial_yaw_offset_deg": -54
+  }
+}

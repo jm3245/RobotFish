@@ -1,0 +1,25 @@
+{
+  "name": "uniform_flow_6d_pd_paired_100",
+  "status": "completed_baseline",
+  "controller": "../../flow_040_navigation/blind_6d.py",
+  "runner": "../../flow_040_navigation/blind_6d_benchmark.py",
+  "observation_order": ["fish_x", "fish_y", "yaw", "yaw_rate", "target_x", "target_y"],
+  "action_order": ["raw_steering_bias_rad", "tail_amplitude_offset_rad"],
+  "frequency_hz": 2.5,
+  "max_commanded_amplitudes_rad": [0.38, 0.42, 0.75],
+  "amplitude_base_rule": "base amplitude = maximum commanded amplitude - 0.10 rad; controller delta A is clipped to [-0.10,+0.10] rad",
+  "scene_sets": [
+    {"flow_speed_m_s": 0.4, "scenes": "../../structured_100_040/scenes.json", "protocol": "../../structured_100_040/protocol.json", "n": 100},
+    {"flow_speed_m_s": 0.5, "scenes": "../../structured_100_050/scenes.json", "protocol": "../../structured_100_050/protocol.json", "n": 100}
+  ],
+  "flow_relative_to_target_deg": [0, 36, 72, 108, 144, 180, 216, 252, 288, 324],
+  "goal_world_bearing_deg": [0, 36, 72, 108, 144, 180, 216, 252, 288, 324],
+  "result_prefixes": {
+    "0.4_m_s": {"0.38_rad": "blind_6d_cap_038", "0.42_rad": "blind_6d_cap_042", "0.75_rad": "blind_6d_final"},
+    "0.5_m_s": {"0.38_rad": "blind_6d_050_a038", "0.42_rad": "blind_6d_050_a042", "0.75_rad": "blind_6d_050_a075"}
+  },
+  "results_directory": "../../reference_results",
+  "success": "head first enters target XY radius 0.3 m before 60 s without physical failure on that step",
+  "obstacles": false,
+  "spatially_varying_flow": false
+}

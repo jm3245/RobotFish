@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco model="fish_N6">
+  <compiler angle="radian" autolimits="true"/>
+  
+  
+  <option timestep="0.001" integrator="Euler" gravity="0 0 0" density="1000" viscosity="0.001" wind="0 0 0"/>
+  
+  
+  <visual>
+    
+    
+    <global azimuth="120" elevation="-45"/>
+    
+  
+  </visual>
+  
+  
+  <worldbody>
+    <geom name="pool_floor" type="box" size="5 3 .025" pos="-.5 0 -.30" rgba=".045 .29 .54 1" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_01" type="box" size=".004 2.99 .001" pos="-5.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_02" type="box" size=".004 2.99 .001" pos="-4.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_03" type="box" size=".004 2.99 .001" pos="-4.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_04" type="box" size=".004 2.99 .001" pos="-3.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_05" type="box" size=".004 2.99 .001" pos="-3.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_06" type="box" size=".004 2.99 .001" pos="-2.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_07" type="box" size=".004 2.99 .001" pos="-2.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_08" type="box" size=".004 2.99 .001" pos="-1.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_09" type="box" size=".004 2.99 .001" pos="-1.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_10" type="box" size=".004 2.99 .001" pos="-0.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_11" type="box" size=".004 2.99 .001" pos="0.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_12" type="box" size=".004 2.99 .001" pos="0.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_13" type="box" size=".004 2.99 .001" pos="1.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_14" type="box" size=".004 2.99 .001" pos="1.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_15" type="box" size=".004 2.99 .001" pos="2.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_16" type="box" size=".004 2.99 .001" pos="2.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_17" type="box" size=".004 2.99 .001" pos="3.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_18" type="box" size=".004 2.99 .001" pos="3.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_x_19" type="box" size=".004 2.99 .001" pos="4.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_y_01" type="box" size="4.99 .004 .001" pos="-.5 -2.500 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_y_02" type="box" size="4.99 .004 .001" pos="-.5 -2.000 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_y_03" type="box" size="4.99 .004 .001" pos="-.5 -1.500 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_y_04" type="box" size="4.99 .004 .001" pos="-.5 -1.000 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_y_05" type="box" size="4.99 .004 .001" pos="-.5 -0.500 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_y_06" type="box" size="4.99 .004 .001" pos="-.5 0.000 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_y_07" type="box" size="4.99 .004 .001" pos="-.5 0.500 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_y_08" type="box" size="4.99 .004 .001" pos="-.5 1.000 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_y_09" type="box" size="4.99 .004 .001" pos="-.5 1.500 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_y_10" type="box" size="4.99 .004 .001" pos="-.5 2.000 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_grid_y_11" type="box" size="4.99 .004 .001" pos="-.5 2.500 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_lane_0" type="box" size="4.75 .015 .002" pos="-.5 -2 -.271" rgba=".77 .91 .98 1" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_T_0_left" type="box" size=".015 .16 .003" pos="-5.15 -2 -.269" rgba=".77 .91 .98 1" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_T_0_right" type="box" size=".015 .16 .003" pos="4.15 -2 -.269" rgba=".77 .91 .98 1" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_lane_1" type="box" size="4.75 .015 .002" pos="-.5 0 -.271" rgba=".77 .91 .98 1" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_T_1_left" type="box" size=".015 .16 .003" pos="-5.15 0 -.269" rgba=".77 .91 .98 1" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_T_1_right" type="box" size=".015 .16 .003" pos="4.15 0 -.269" rgba=".77 .91 .98 1" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_lane_2" type="box" size="4.75 .015 .002" pos="-.5 2 -.271" rgba=".77 .91 .98 1" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_T_2_left" type="box" size=".015 .16 .003" pos="-5.15 2 -.269" rgba=".77 .91 .98 1" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_T_2_right" type="box" size=".015 .16 .003" pos="4.15 2 -.269" rgba=".77 .91 .98 1" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_rail_north" type="box" size="5.6 .07 .11" pos="-.5 3.08 -.24" rgba=".77 .85 .88 1" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_rail_south" type="box" size="5.6 .07 .11" pos="-.5 -3.08 -.24" rgba=".77 .85 .88 1" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_rail_west" type="box" size=".07 3.15 .11" pos="-5.57 0 -.24" rgba=".77 .85 .88 1" contype="0" conaffinity="0"/>
+    
+    
+    <geom name="pool_rail_east" type="box" size=".07 3.15 .11" pos="4.57 0 -.24" rgba=".77 .85 .88 1" contype="0" conaffinity="0"/>
+    
+    
+    <camera name="pool_top_full" pos="-.5 0 12" fovy="40"/>
+    
+    
+    <camera name="pool_top_close" pos="-.5 0 3" fovy="42"/>
+    
+    
+    <light name="pool_key" pos="-1 0 9" dir="0 0 -1" diffuse=".85 .92 1" specular=".15 .15 .15"/>
+    
+    
+    <body name="pool_goal_marker" mocap="true" pos="1 0 .55">
+      
+      
+      <geom name="pool_goal_orange" type="sphere" size=".065" pos="0 0 0" rgba="1 .31 .035 1" contype="0" conaffinity="0"/>
+      
+      
+      <geom name="pool_goal_halo" type="cylinder" size=".11 .003" pos="0 0 -.25" rgba="1 .49 .06 .68" contype="0" conaffinity="0"/>
+      
+      
+      <site name="pool_goal_site" type="sphere" size=".068" pos="0 0 0" rgba="1 .35 .03 .8"/>
+      
+    
+    </body>
+    
+  
+    <body name="head" pos="0 0 0.5">
+      <freejoint name="root_free"/>
+      <site name="head_imu" pos="0 0 0" size="0.005"/>
+      <geom name="body_geom_0" type="ellipsoid" pos="-0.0952380952 0 0" size="0.0952380952 0.0446428571 0.0533333333" density="1000" rgba="0.22 0.58 0.77 1" contype="0" conaffinity="0"/>
+      <site name="s0" pos="0 0 0" size="0.004" rgba="1 0.7 0.1 1"/>
+      <site name="s1" pos="-0.142857143 0 0" size="0.004" rgba="1 0.7 0.1 1"/>
+      <body name="segment_1" pos="-0.19047619 0 0">
+        <joint name="joint_0" type="hinge" axis="0 0 1" limited="true" range="-0.75 0.75" stiffness="0.01" damping="0.015" armature="0.0005"/>
+        <geom name="body_geom_1" type="ellipsoid" pos="-0.0873015873 0 0" size="0.0873015873 0.0525 0.0656111111" density="1000" rgba="0.30 0.68 0.80 1" contype="0" conaffinity="0"/>
+        <site name="s2" pos="-0.0952380952 0 0" size="0.004" rgba="1 0.7 0.1 1"/>
+        <body name="segment_2" pos="-0.174603175 0 0">
+          <joint name="joint_1" type="hinge" axis="0 0 1" limited="true" range="-0.75 0.75" stiffness="0.01" damping="0.015" armature="0.0005"/>
+          <geom name="body_geom_2" type="ellipsoid" pos="-0.0793650794 0 0" size="0.0793650794 0.0525 0.0722777778" density="1000" rgba="0.22 0.58 0.77 1" contype="0" conaffinity="0"/>
+          <site name="s3" pos="-0.0634920635 0 0" size="0.004" rgba="1 0.7 0.1 1"/>
+          <body name="segment_3" pos="-0.158730159 0 0">
+            <joint name="joint_2" type="hinge" axis="0 0 1" limited="true" range="-0.75 0.75" stiffness="0.01" damping="0.015" armature="0.0005"/>
+            <geom name="body_geom_3" type="ellipsoid" pos="-0.0714285714 0 0" size="0.0714285714 0.0423333333 0.0608809524" density="1000" rgba="0.30 0.68 0.80 1" contype="0" conaffinity="0"/>
+            <site name="s4" pos="-0.0476190476 0 0" size="0.004" rgba="1 0.7 0.1 1"/>
+            <body name="segment_4" pos="-0.142857143 0 0">
+              <joint name="joint_3" type="hinge" axis="0 0 1" limited="true" range="-0.75 0.75" stiffness="0.01" damping="0.015" armature="0.0005"/>
+              <geom name="body_geom_4" type="ellipsoid" pos="-0.0634920635 0 0" size="0.0634920635 0.0318165785 0.0483112875" density="1000" rgba="0.22 0.58 0.77 1" contype="0" conaffinity="0"/>
+              <site name="s5" pos="-0.0476190476 0 0" size="0.004" rgba="1 0.7 0.1 1"/>
+              <body name="segment_5" pos="-0.126984127 0 0">
+                <joint name="joint_4" type="hinge" axis="0 0 1" limited="true" range="-0.75 0.75" stiffness="0.01" damping="0.015" armature="0.0005"/>
+                <geom name="body_geom_5" type="ellipsoid" pos="-0.0555555556 0 0" size="0.0555555556 0.0192504409 0.0317768959" density="1000" rgba="0.30 0.68 0.80 1" contype="0" conaffinity="0"/>
+                <site name="s6" pos="-0.0634920635 0 0" size="0.004" rgba="1 0.7 0.1 1"/>
+                <body name="segment_6" pos="-0.111111111 0 0">
+                  <joint name="joint_5" type="hinge" axis="0 0 1" limited="true" range="-0.75 0.75" stiffness="0.01" damping="0.015" armature="0.0005"/>
+                  <geom name="body_geom_6" type="ellipsoid" pos="-0.0476190476 0 0" size="0.0476190476 0.0117777778 0.0199603175" density="1000" rgba="0.22 0.58 0.77 1" contype="0" conaffinity="0"/>
+                  <geom name="tail_fin" type="ellipsoid" pos="-0.0452380952 0 0" size="0.05 0.006 0.09" density="1000" rgba="0.12 0.42 0.68 0.9" contype="0" conaffinity="0"/>
+                  <site name="s7" pos="-0.0952380952 0 0" size="0.004" rgba="1 0.7 0.1 1"/>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <position name="joint_0" joint="joint_0" kp="35" kv="0.6" ctrllimited="true" ctrlrange="-0.75 0.75" forcelimited="true" forcerange="-12 12"/>
+    <position name="joint_1" joint="joint_1" kp="35" kv="0.6" ctrllimited="true" ctrlrange="-0.75 0.75" forcelimited="true" forcerange="-12 12"/>
+    <position name="joint_2" joint="joint_2" kp="35" kv="0.6" ctrllimited="true" ctrlrange="-0.75 0.75" forcelimited="true" forcerange="-12 12"/>
+    <position name="joint_3" joint="joint_3" kp="35" kv="0.6" ctrllimited="true" ctrlrange="-0.75 0.75" forcelimited="true" forcerange="-12 12"/>
+    <position name="joint_4" joint="joint_4" kp="35" kv="0.6" ctrllimited="true" ctrlrange="-0.75 0.75" forcelimited="true" forcerange="-12 12"/>
+    <position name="joint_5" joint="joint_5" kp="35" kv="0.6" ctrllimited="true" ctrlrange="-0.75 0.75" forcelimited="true" forcerange="-12 12"/>
+  </actuator>
+  <sensor>
+    <framequat name="head_quat" objtype="site" objname="head_imu"/>
+    <velocimeter name="head_velocity" site="head_imu"/>
+  </sensor>
+</mujoco>

@@ -1,0 +1,64 @@
+{
+  "destination": "https://docs.google.com/presentation/d/1X6HSrvL_L7XZjNDd2qv1a4vUSrzd37tSb2n5ljms0W0/edit",
+  "operation": "Append eight English slides in place, preserving existing slides 1-14",
+  "slides": [
+    {
+      "page": 15,
+      "role": "Translated overview figure",
+      "exemplar": "p9",
+      "method": "duplicate",
+      "image_mapping": "replace original flow-direction image with English wake-and-target figure"
+    },
+    {
+      "page": 16,
+      "role": "Scene and goal definition",
+      "exemplar": "p11",
+      "method": "duplicate",
+      "image_mapping": "replace original simulation frame with target distribution"
+    },
+    {
+      "page": 17,
+      "role": "Actual fish geometry and sensor inventory",
+      "exemplar": "p11",
+      "method": "duplicate",
+      "image_mapping": "replace frame with native MuJoCo renders of all five included morphologies"
+    },
+    {
+      "page": 18,
+      "role": "Local flow coupling and observation boundary",
+      "exemplar": "p11",
+      "method": "duplicate",
+      "image_mapping": "replace frame with signed vorticity and velocity plot"
+    },
+    {
+      "page": 19,
+      "role": "Paired arrival rate evidence",
+      "exemplar": "p9",
+      "method": "duplicate",
+      "image_mapping": "replace direction diagram with six-group arrival chart"
+    },
+    {
+      "page": 20,
+      "role": "Amplitude-specific trajectories",
+      "exemplar": "p10",
+      "method": "duplicate",
+      "image_mapping": "replace all three old simulation frames with recorded head trajectories at three amplitude caps"
+    },
+    {
+      "page": 21,
+      "role": "Left, straight, and right arrival trajectories",
+      "exemplar": "p10",
+      "method": "duplicate",
+      "image_mapping": "replace all three old frames with maximum-amplitude trajectory examples"
+    },
+    {
+      "page": 22,
+      "role": "Interpretation and reproducibility",
+      "exemplar": "p2",
+      "method": "duplicate",
+      "image_mapping": "no media slots in exemplar"
+    }
+  ],
+  "source_notes": "Preserve Arial, 28 pt titles, existing slide-number positions and white background. Keep all images in their original frame with CENTER_INSIDE to preserve aspect ratio. Existing source notes are replaced with experiment-specific paths and assumptions.",
+  "visual_qa_repair": "Slide 17 enlarges native geometry renders by cropping empty renderer margins. Slide 20 consolidates three small media frames into one stacked plot with common axis limits for readability."
+}

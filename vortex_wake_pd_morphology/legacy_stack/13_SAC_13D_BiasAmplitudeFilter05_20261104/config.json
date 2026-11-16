@@ -1,0 +1,102 @@
+{
+  "seeds": [
+    29401
+  ],
+  "environment_steps_per_seed": 2000000,
+  "n_envs": 8,
+  "checkpoint_every": 50000,
+  "validation_every": 50000,
+  "validation_targets_per_condition": 2,
+  "test_targets_per_condition": 30,
+  "validation_seed": 20261100,
+  "test_source": "planar_flow_8dir_20261029/protocol.json and 01_Baseline_Controller/frozen/test_scenarios.json",
+  "success_xy_radius_m": 0.3,
+  "success_definition": "first head entry into XY distance <0.3m; immediate episode termination; physical failure takes precedence on the same step",
+  "flow_type": "constant",
+  "flow_frame": "world",
+  "flow_z_m_s": 0.0,
+  "training_speed_distribution_m_s": "uniform continuous on [0.2, 0.3]",
+  "training_direction_distribution_deg": "uniform continuous on [0, 360)",
+  "evaluation_speeds_m_s": [
+    0.0,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "evaluation_directions_deg": [
+    0,
+    45,
+    90,
+    135,
+    180,
+    225,
+    270,
+    315
+  ],
+  "observation_order": [
+    "fish_x",
+    "fish_y",
+    "yaw",
+    "yaw_rate",
+    "target_x",
+    "target_y",
+    "flow_x",
+    "flow_y",
+    "desired_vx",
+    "desired_vy",
+    "desired_heading",
+    "fish_com_vx_world",
+    "fish_com_vy_world"
+  ],
+  "observation_normalization": "none; raw physical units",
+  "action_bounds_rad": [
+    -0.3,
+    0.3
+  ],
+  "action_order": ["raw_steering_bias_rad", "amplitude_offset_rad"],
+  "amplitude_offset_bounds_rad": [-0.1, 0.1],
+  "baseline_amplitude_rad": 0.65,
+  "near_target_frequency_slowdown": false,
+  "action_meaning": "2D action: raw steering bias before the 0.5/0.5 filter; amplitude offset added to the frozen 0.65 rad amplitude, with the original joint target clamp at +/-0.75 rad",
+  "bias_filter": [
+    0.5,
+    0.5
+  ],
+  "actor_hidden": [
+    64,
+    64
+  ],
+  "critic_hidden": [
+    64,
+    64
+  ],
+  "activation": "ReLU",
+  "sac": {
+    "learning_rate": 0.0003,
+    "batch_size": 256,
+    "gamma": 0.99,
+    "tau": 0.005,
+    "buffer_size": 1000000,
+    "learning_starts": 10000,
+    "train_freq": 1,
+    "gradient_steps": 1,
+    "ent_coef": "auto_0.1",
+    "target_entropy": -2.0
+  },
+  "reward": {
+    "progress": 10.0,
+    "time_per_step": 0.001,
+    "success": 30.0,
+    "failure": -10.0
+  },
+  "training_flows": [
+    "constant"
+  ],
+  "test_selection": "test the fixed 2000000-step endpoint and the highest fixed-validation checkpoint for each seed; no test-based selection",
+  "reward_note": "no path deviation, action or bias regularization; timeout is not physical failure",
+  "training_note": "Historical checkpoints through step 500000 used near-target frequency slowdown. Current environment defaults to fixed tail frequency for future training and evaluation; 13D observation and 2D [raw steering bias, additive amplitude offset] action remain unchanged.",
+  "pd_feature_source": "01_Baseline_Controller/core.py Controller.action, constant parameters from frozen/controllers.json",
+  "pd_desired_speed_m_s": 0.25,
+  "pd_flow_gain": 1.2,
+  "fish_velocity_source": "05_PD_FishVelocity_Feedback/controller.py fish_com_velocity_world; world XY whole-fish subtree COM"
+}

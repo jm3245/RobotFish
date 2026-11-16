@@ -1,0 +1,9 @@
+{
+  "n": 100,
+  "arrived": 0,
+  "mode": "uniform",
+  "cap_rad": 0.42,
+  "physical_failure": 0,
+  "timeout": 100,
+  "controller_sha256": "dbc15fdebee5ab31a43439ef72d320dcd4514e672879de0f30ae54b0bf00dc01"
+}

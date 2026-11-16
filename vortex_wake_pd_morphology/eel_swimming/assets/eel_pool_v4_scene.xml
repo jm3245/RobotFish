@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="eel_20seg_train_pool">
+  <compiler angle="radian" autolimits="true" />
+  <option timestep="0.001" integrator="Euler" gravity="0 0 0" density="1000" viscosity="0.001" wind="0 0 0" />
+  <visual>
+    <global azimuth="120" elevation="-45" />
+  </visual>
+  <worldbody>
+    <light name="key_light" pos="0 0 3" dir="0 0 -1" />
+    <camera name="top" pos="-0.5 0 2.6" xyaxes="1 0 0 0 1 0" />
+    <body name="segment_00" pos="0 0 0.5">
+      <freejoint name="root_free" />
+      <geom name="geom_00" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.14 0.49 0.73 1" contype="0" conaffinity="0" />
+      <site name="head_tip" pos="0.015 0 0" size="0.008" rgba="1 0.35 0.1 1" />
+      <body name="segment_01" pos="-0.05000 0 0">
+        <joint name="bend_01" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+        <geom name="geom_01" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.33 0.68 0.73 1" contype="0" conaffinity="0" />
+        <body name="segment_02" pos="-0.05000 0 0">
+          <joint name="bend_02" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+          <geom name="geom_02" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.40 0.75 0.78 1" contype="0" conaffinity="0" />
+          <body name="segment_03" pos="-0.05000 0 0">
+            <joint name="bend_03" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+            <geom name="geom_03" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.33 0.68 0.73 1" contype="0" conaffinity="0" />
+            <body name="segment_04" pos="-0.05000 0 0">
+              <joint name="bend_04" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+              <geom name="geom_04" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.40 0.75 0.78 1" contype="0" conaffinity="0" />
+              <body name="segment_05" pos="-0.05000 0 0">
+                <joint name="bend_05" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                <geom name="geom_05" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.33 0.68 0.73 1" contype="0" conaffinity="0" />
+                <body name="segment_06" pos="-0.05000 0 0">
+                  <joint name="bend_06" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                  <geom name="geom_06" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.40 0.75 0.78 1" contype="0" conaffinity="0" />
+                  <body name="segment_07" pos="-0.05000 0 0">
+                    <joint name="bend_07" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                    <geom name="geom_07" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.33 0.68 0.73 1" contype="0" conaffinity="0" />
+                    <body name="segment_08" pos="-0.05000 0 0">
+                      <joint name="bend_08" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                      <geom name="geom_08" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.40 0.75 0.78 1" contype="0" conaffinity="0" />
+                      <body name="segment_09" pos="-0.05000 0 0">
+                        <joint name="bend_09" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                        <geom name="geom_09" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.33 0.68 0.73 1" contype="0" conaffinity="0" />
+                        <body name="segment_10" pos="-0.05000 0 0">
+                          <joint name="bend_10" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                          <geom name="geom_10" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.40 0.75 0.78 1" contype="0" conaffinity="0" />
+                          <body name="segment_11" pos="-0.05000 0 0">
+                            <joint name="bend_11" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                            <geom name="geom_11" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.33 0.68 0.73 1" contype="0" conaffinity="0" />
+                            <body name="segment_12" pos="-0.05000 0 0">
+                              <joint name="bend_12" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                              <geom name="geom_12" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.40 0.75 0.78 1" contype="0" conaffinity="0" />
+                              <body name="segment_13" pos="-0.05000 0 0">
+                                <joint name="bend_13" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                                <geom name="geom_13" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.33 0.68 0.73 1" contype="0" conaffinity="0" />
+                                <body name="segment_14" pos="-0.05000 0 0">
+                                  <joint name="bend_14" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                                  <geom name="geom_14" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.40 0.75 0.78 1" contype="0" conaffinity="0" />
+                                  <body name="segment_15" pos="-0.05000 0 0">
+                                    <joint name="bend_15" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                                    <geom name="geom_15" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.33 0.68 0.73 1" contype="0" conaffinity="0" />
+                                    <body name="segment_16" pos="-0.05000 0 0">
+                                      <joint name="bend_16" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                                      <geom name="geom_16" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.40 0.75 0.78 1" contype="0" conaffinity="0" />
+                                      <body name="segment_17" pos="-0.05000 0 0">
+                                        <joint name="bend_17" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                                        <geom name="geom_17" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.33 0.68 0.73 1" contype="0" conaffinity="0" />
+                                        <body name="segment_18" pos="-0.05000 0 0">
+                                          <joint name="bend_18" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                                          <geom name="geom_18" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.40 0.75 0.78 1" contype="0" conaffinity="0" />
+                                          <body name="segment_19" pos="-0.05000 0 0">
+                                            <joint name="bend_19" type="hinge" axis="0 0 1" springref="0" stiffness="10" damping="0.2" limited="true" range="-0.6 0.6" />
+                                            <geom name="geom_19" type="cylinder" fromto="0 0 0 -0.05000 0 0" size="0.05000" density="1200.0" rgba="0.33 0.68 0.73 1" contype="0" conaffinity="0" />
+                                            <site name="tail_tip" pos="-0.05000 0 0" size="0.008" rgba="0.9 0.7 0.1 1" />
+                                          </body>
+                                        </body>
+                                      </body>
+                                    </body>
+                                  </body>
+                                </body>
+                              </body>
+                            </body>
+                          </body>
+                        </body>
+                      </body>
+                    </body>
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <geom name="pool_floor" type="box" size="5 3 .025" pos="-.5 0 -.30" rgba=".045 .29 .54 1" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_01" type="box" size=".004 2.99 .001" pos="-5.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_02" type="box" size=".004 2.99 .001" pos="-4.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_03" type="box" size=".004 2.99 .001" pos="-4.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_04" type="box" size=".004 2.99 .001" pos="-3.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_05" type="box" size=".004 2.99 .001" pos="-3.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_06" type="box" size=".004 2.99 .001" pos="-2.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_07" type="box" size=".004 2.99 .001" pos="-2.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_08" type="box" size=".004 2.99 .001" pos="-1.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_09" type="box" size=".004 2.99 .001" pos="-1.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_10" type="box" size=".004 2.99 .001" pos="-0.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_11" type="box" size=".004 2.99 .001" pos="0.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_12" type="box" size=".004 2.99 .001" pos="0.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_13" type="box" size=".004 2.99 .001" pos="1.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_14" type="box" size=".004 2.99 .001" pos="1.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_15" type="box" size=".004 2.99 .001" pos="2.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_16" type="box" size=".004 2.99 .001" pos="2.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_17" type="box" size=".004 2.99 .001" pos="3.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_18" type="box" size=".004 2.99 .001" pos="3.500 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_x_19" type="box" size=".004 2.99 .001" pos="4.000 0 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_y_01" type="box" size="4.99 .004 .001" pos="-.5 -2.500 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_y_02" type="box" size="4.99 .004 .001" pos="-.5 -2.000 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_y_03" type="box" size="4.99 .004 .001" pos="-.5 -1.500 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_y_04" type="box" size="4.99 .004 .001" pos="-.5 -1.000 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_y_05" type="box" size="4.99 .004 .001" pos="-.5 -0.500 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_y_06" type="box" size="4.99 .004 .001" pos="-.5 0.000 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_y_07" type="box" size="4.99 .004 .001" pos="-.5 0.500 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_y_08" type="box" size="4.99 .004 .001" pos="-.5 1.000 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_y_09" type="box" size="4.99 .004 .001" pos="-.5 1.500 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_y_10" type="box" size="4.99 .004 .001" pos="-.5 2.000 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_grid_y_11" type="box" size="4.99 .004 .001" pos="-.5 2.500 -.273" rgba=".16 .45 .68 .38" contype="0" conaffinity="0" />
+    <geom name="pool_lane_0" type="box" size="4.75 .015 .002" pos="-.5 -2 -.271" rgba=".77 .91 .98 1" contype="0" conaffinity="0" />
+    <geom name="pool_T_0_left" type="box" size=".015 .16 .003" pos="-5.15 -2 -.269" rgba=".77 .91 .98 1" contype="0" conaffinity="0" />
+    <geom name="pool_T_0_right" type="box" size=".015 .16 .003" pos="4.15 -2 -.269" rgba=".77 .91 .98 1" contype="0" conaffinity="0" />
+    <geom name="pool_lane_1" type="box" size="4.75 .015 .002" pos="-.5 0 -.271" rgba=".77 .91 .98 1" contype="0" conaffinity="0" />
+    <geom name="pool_T_1_left" type="box" size=".015 .16 .003" pos="-5.15 0 -.269" rgba=".77 .91 .98 1" contype="0" conaffinity="0" />
+    <geom name="pool_T_1_right" type="box" size=".015 .16 .003" pos="4.15 0 -.269" rgba=".77 .91 .98 1" contype="0" conaffinity="0" />
+    <geom name="pool_lane_2" type="box" size="4.75 .015 .002" pos="-.5 2 -.271" rgba=".77 .91 .98 1" contype="0" conaffinity="0" />
+    <geom name="pool_T_2_left" type="box" size=".015 .16 .003" pos="-5.15 2 -.269" rgba=".77 .91 .98 1" contype="0" conaffinity="0" />
+    <geom name="pool_T_2_right" type="box" size=".015 .16 .003" pos="4.15 2 -.269" rgba=".77 .91 .98 1" contype="0" conaffinity="0" />
+    <geom name="pool_rail_north" type="box" size="5.6 .07 .11" pos="-.5 3.08 -.24" rgba=".77 .85 .88 1" contype="0" conaffinity="0" />
+    <geom name="pool_rail_south" type="box" size="5.6 .07 .11" pos="-.5 -3.08 -.24" rgba=".77 .85 .88 1" contype="0" conaffinity="0" />
+    <geom name="pool_rail_west" type="box" size=".07 3.15 .11" pos="-5.57 0 -.24" rgba=".77 .85 .88 1" contype="0" conaffinity="0" />
+    <geom name="pool_rail_east" type="box" size=".07 3.15 .11" pos="4.57 0 -.24" rgba=".77 .85 .88 1" contype="0" conaffinity="0" />
+    <camera name="pool_top_full" pos="-.5 0 12" fovy="40" />
+    <camera name="pool_top_close" pos="-.5 0 3" fovy="42" />
+    <light name="pool_key" pos="-1 0 9" dir="0 0 -1" diffuse=".85 .92 1" specular=".15 .15 .15" />
+    <body name="pool_goal_marker" mocap="true" pos="1 0 .55">
+      <geom name="pool_goal_orange" type="sphere" size=".065" pos="0 0 0" rgba="1 .31 .035 1" contype="0" conaffinity="0" />
+      <geom name="pool_goal_halo" type="cylinder" size=".11 .003" pos="0 0 -.25" rgba="1 .49 .06 .68" contype="0" conaffinity="0" />
+      <site name="pool_goal_site" type="sphere" size=".068" pos="0 0 0" rgba="1 .35 .03 .8" />
+    </body>
+  </worldbody>
+  <actuator>
+    <motor name="motor_01" joint="bend_02" gear="1" ctrllimited="true" ctrlrange="-5 5" />
+    <motor name="motor_02" joint="bend_06" gear="1" ctrllimited="true" ctrlrange="-5 5" />
+    <motor name="motor_03" joint="bend_10" gear="1" ctrllimited="true" ctrlrange="-5 5" />
+    <motor name="motor_04" joint="bend_14" gear="1" ctrllimited="true" ctrlrange="-5 5" />
+    <motor name="motor_05" joint="bend_18" gear="1" ctrllimited="true" ctrlrange="-5 5" />
+  </actuator>
+</mujoco>

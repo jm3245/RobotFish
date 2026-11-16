@@ -1,0 +1,10 @@
+{
+  "controller": "blind_6d",
+  "cap_rad": 0.75,
+  "n": 100,
+  "cylinder_arrived": 100,
+  "point_arrived": 100,
+  "physical_failure": 0,
+  "timeout": 0,
+  "scenes_sha256": "fb17712d485d9afdbb030a3fb29571bc6521ea58fd58f533df501a1f6aec7041"
+}

@@ -1,0 +1,10 @@
+{
+  "controller": "heading_first_6d",
+  "cap_rad": 0.38,
+  "n": 100,
+  "cylinder_arrived": 0,
+  "point_arrived": 0,
+  "physical_failure": 40,
+  "timeout": 60,
+  "scenes_sha256": "fb17712d485d9afdbb030a3fb29571bc6521ea58fd58f533df501a1f6aec7041"
+}

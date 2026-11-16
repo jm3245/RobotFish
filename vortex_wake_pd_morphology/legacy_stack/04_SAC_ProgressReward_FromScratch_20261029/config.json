@@ -1,0 +1,89 @@
+{
+  "seeds": [
+    29401
+  ],
+  "environment_steps_per_seed": 2000000,
+  "n_envs": 8,
+  "checkpoint_every": 50000,
+  "validation_every": 50000,
+  "validation_targets_per_condition": 2,
+  "test_targets_per_condition": 30,
+  "validation_seed": 20261100,
+  "test_source": "planar_flow_8dir_20261029/protocol.json and 01_Baseline_Controller/frozen/test_scenarios.json",
+  "success_xy_radius_m": 0.3,
+  "success_definition": "first head entry into XY distance <0.3m; immediate episode termination; physical failure takes precedence on the same step",
+  "flow_type": "constant",
+  "flow_frame": "world",
+  "flow_z_m_s": 0.0,
+  "training_speed_distribution_m_s": "uniform continuous on [0.2, 0.3]",
+  "training_direction_distribution_deg": "uniform continuous on [0, 360)",
+  "evaluation_speeds_m_s": [
+    0.0,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "evaluation_directions_deg": [
+    0,
+    45,
+    90,
+    135,
+    180,
+    225,
+    270,
+    315
+  ],
+  "observation_order": [
+    "fish_x",
+    "fish_y",
+    "yaw",
+    "yaw_rate",
+    "target_x",
+    "target_y",
+    "flow_x",
+    "flow_y"
+  ],
+  "observation_normalization": "none; raw physical units",
+  "action_bounds_rad": [
+    -0.3,
+    0.3
+  ],
+  "action_meaning": "raw b_t steering bias after original PD sign conversion and before 0.85/0.15 bias filter",
+  "bias_filter": [
+    0.85,
+    0.15
+  ],
+  "actor_hidden": [
+    64,
+    64
+  ],
+  "critic_hidden": [
+    64,
+    64
+  ],
+  "activation": "ReLU",
+  "sac": {
+    "learning_rate": 0.0003,
+    "batch_size": 256,
+    "gamma": 0.99,
+    "tau": 0.005,
+    "buffer_size": 1000000,
+    "learning_starts": 10000,
+    "train_freq": 1,
+    "gradient_steps": 1,
+    "ent_coef": "auto_0.1",
+    "target_entropy": -1.0
+  },
+  "reward": {
+    "progress": 10.0,
+    "time_per_step": 0.001,
+    "success": 30.0,
+    "failure": -10.0
+  },
+  "training_flows": [
+    "constant"
+  ],
+  "test_selection": "test the fixed 2000000-step endpoint and the highest fixed-validation checkpoint for each seed; no test-based selection",
+  "reward_note": "no path deviation, action or bias regularization; timeout is not physical failure",
+  "training_note": "fresh actor and critic; same 8D observation, 1D steering action, physics, 50Hz, flow 0.2-0.3 m/s and target generation as source 03"
+}

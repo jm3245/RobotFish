@@ -1,0 +1,10 @@
+{
+  "tested_python": "3.8",
+  "mujoco": "3.2.3",
+  "numpy": "1.24.4",
+  "gymnasium": "1.0.0",
+  "matplotlib": "3.7.5",
+  "main_model": "legacy_stack/01_Baseline_Controller/source_snapshot/fish_N4_entity.xml",
+  "controller": "flow_040_navigation/blind_6d.py",
+  "flow_suite": "experiments/front180_wake/scenes.json"
+}

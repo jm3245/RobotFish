@@ -1,0 +1,57 @@
+{
+  "n": 100,
+  "arrived": 100,
+  "timeout": 0,
+  "physical_failure": 0,
+  "params": {
+    "speed": 0.54,
+    "drift_gain": 0.5,
+    "estimate_tau": 1.0,
+    "cross_p": 1.0,
+    "cross_i": 0.3
+  },
+  "by_flow_relative_deg": {
+    "0": {
+      "n": 10,
+      "arrived": 10
+    },
+    "36": {
+      "n": 10,
+      "arrived": 10
+    },
+    "72": {
+      "n": 10,
+      "arrived": 10
+    },
+    "108": {
+      "n": 10,
+      "arrived": 10
+    },
+    "144": {
+      "n": 10,
+      "arrived": 10
+    },
+    "180": {
+      "n": 10,
+      "arrived": 10
+    },
+    "216": {
+      "n": 10,
+      "arrived": 10
+    },
+    "252": {
+      "n": 10,
+      "arrived": 10
+    },
+    "288": {
+      "n": 10,
+      "arrived": 10
+    },
+    "324": {
+      "n": 10,
+      "arrived": 10
+    }
+  },
+  "scenes_sha256": "af79a87d5ef9f1d60e283ca01aa67f7971061049e14f8229a239efb02c3ea3d5",
+  "controller_sha256": "dbc15fdebee5ab31a43439ef72d320dcd4514e672879de0f30ae54b0bf00dc01"
+}

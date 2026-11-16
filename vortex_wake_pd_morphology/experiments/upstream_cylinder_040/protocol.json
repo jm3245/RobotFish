@@ -1,0 +1,67 @@
+{
+  "name": "upstream_cylinder_040_v1",
+  "n": 100,
+  "flow_m_s": [
+    -0.4,
+    0.0,
+    0.0
+  ],
+  "flow_description": "constant uniform world-frame current toward -x",
+  "start_xy_m": [
+    0.0,
+    0.0
+  ],
+  "fish_initial_heading_deg": 0,
+  "goal_bearings_deg": [
+    -54,
+    -42,
+    -30,
+    -18,
+    -6,
+    6,
+    18,
+    30,
+    42,
+    54
+  ],
+  "goal_distances_m": [
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0
+  ],
+  "design": "10 goal bearings (five left, five right) x 10 distances",
+  "goal_x_positive": true,
+  "flow_dot_goal_negative": true,
+  "signed_flow_relative_goal_range_deg": [
+    126,
+    234
+  ],
+  "note_on_angle": "Unsigned angle between two vectors is at most 180 deg; signed relative direction spans 126..234 deg and every case has an upstream component.",
+  "cylinder_target_radius_m": 0.35,
+  "cylinder_target_height_m": 1.0,
+  "cylinder_center_z_m": 0.5,
+  "cylinder_target_collidable": false,
+  "cylinder_success": "fish head first enters the vertical cylinder: XY distance <=0.35 m and |z-0.5|<=0.5 m, without physical failure on that step",
+  "point_baseline_success": "original environment first head XY distance <0.30 m, without physical failure on that step",
+  "trial_limit_s": 60.0,
+  "control_dt_s": 0.02,
+  "controllers": [
+    "BlindAdaptive6DPD",
+    "HeadingFirst6DController"
+  ],
+  "frequency_hz": 2.5,
+  "max_commanded_amplitudes_rad": [
+    0.38,
+    0.42,
+    0.75
+  ],
+  "clarification": "0.557 m/s was a still-water average forward speed measured with Amax=0.75 rad at 2.5 Hz. It is not an amplitude or a hard speed cap.",
+  "wake_enabled": false
+}

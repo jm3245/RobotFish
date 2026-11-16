@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="fish_N4">
+  <compiler angle="radian" autolimits="true" />
+  
+  
+  <visual>
+    
+    
+    <global azimuth="120" elevation="-45" />
+    
+  
+  </visual>
+  
+  
+  <worldbody>
+    <body name="head" pos="0 0 0.5">
+      <freejoint name="root_free" />
+      <site name="head_imu" pos="0 0 0" size="0.005" />
+      <geom name="body_geom_0" type="ellipsoid" pos="-0.133333333 0 0" size="0.133333333 0.0475 0.0566666667" density="1000" rgba="0.22 0.58 0.77 1" contype="0" conaffinity="0" />
+      <site name="s0" pos="0 0 0" size="0.004" rgba="1 0.7 0.1 1" />
+      <site name="s1" pos="-0.142857143 0 0" size="0.004" rgba="1 0.7 0.1 1" />
+      <body name="segment_1" pos="-0.266666667 0 0">
+        <joint name="joint_0" type="hinge" axis="0 0 1" limited="true" range="-0.75 0.75" stiffness="0.01" damping="0.015" armature="0.0005" />
+        <geom name="body_geom_1" type="ellipsoid" pos="-0.116666667 0 0" size="0.116666667 0.0525 0.0698333333" density="1000" rgba="0.30 0.68 0.80 1" contype="0" conaffinity="0" />
+        <site name="s2" pos="-0.019047619 0 0" size="0.004" rgba="1 0.7 0.1 1" />
+        <site name="s3" pos="-0.161904762 0 0" size="0.004" rgba="1 0.7 0.1 1" />
+        <body name="segment_2" pos="-0.233333333 0 0">
+          <joint name="joint_1" type="hinge" axis="0 0 1" limited="true" range="-0.75 0.75" stiffness="0.01" damping="0.015" armature="0.0005" />
+          <geom name="body_geom_2" type="ellipsoid" pos="-0.1 0 0" size="0.1 0.042 0.0605" density="1000" rgba="0.22 0.58 0.77 1" contype="0" conaffinity="0" />
+          <site name="s4" pos="-0.0714285714 0 0" size="0.004" rgba="1 0.7 0.1 1" />
+          <body name="segment_3" pos="-0.2 0 0">
+            <joint name="joint_2" type="hinge" axis="0 0 1" limited="true" range="-0.75 0.75" stiffness="0.01" damping="0.015" armature="0.0005" />
+            <geom name="body_geom_3" type="ellipsoid" pos="-0.0833333333 0 0" size="0.0833333333 0.0262037037 0.0409259259" density="1000" rgba="0.30 0.68 0.80 1" contype="0" conaffinity="0" />
+            <site name="s5" pos="-0.0142857143 0 0" size="0.004" rgba="1 0.7 0.1 1" />
+            <site name="s6" pos="-0.157142857 0 0" size="0.004" rgba="1 0.7 0.1 1" />
+            <body name="segment_4" pos="-0.166666667 0 0">
+              <joint name="joint_3" type="hinge" axis="0 0 1" limited="true" range="-0.75 0.75" stiffness="0.01" damping="0.015" armature="0.0005" />
+              <geom name="body_geom_4" type="ellipsoid" pos="-0.0666666667 0 0" size="0.0666666667 0.0128888889 0.0219444444" density="1000" rgba="0.22 0.58 0.77 1" contype="0" conaffinity="0" />
+              <geom name="tail_fin" type="ellipsoid" pos="-0.0833333333 0 0" size="0.05 0.006 0.09" density="1000" rgba="0.12 0.42 0.68 0.9" contype="0" conaffinity="0" />
+              <site name="s7" pos="-0.133333333 0 0" size="0.004" rgba="1 0.7 0.1 1" />
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <position name="joint_0" joint="joint_0" kp="35" kv="0.6" ctrllimited="true" ctrlrange="-0.75 0.75" forcelimited="true" forcerange="-12 12" />
+    <position name="joint_1" joint="joint_1" kp="35" kv="0.6" ctrllimited="true" ctrlrange="-0.75 0.75" forcelimited="true" forcerange="-12 12" />
+    <position name="joint_2" joint="joint_2" kp="35" kv="0.6" ctrllimited="true" ctrlrange="-0.75 0.75" forcelimited="true" forcerange="-12 12" />
+    <position name="joint_3" joint="joint_3" kp="35" kv="0.6" ctrllimited="true" ctrlrange="-0.75 0.75" forcelimited="true" forcerange="-12 12" />
+  </actuator>
+  <sensor>
+    <framequat name="head_quat" objtype="site" objname="head_imu" />
+    <velocimeter name="head_velocity" site="head_imu" />
+  </sensor>
+</mujoco>

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.git/
+presentation/research-update/
+flow_040_navigation/smoke_*
+# Override the parent RobotFish repository's blanket asset exclusions.
+!*.png
+!*.xml
+!*.pdf

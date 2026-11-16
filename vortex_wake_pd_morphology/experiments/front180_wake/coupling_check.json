@@ -1,0 +1,9 @@
+{
+  "native_uniform_force_difference_max_error": 4.440892098500626e-16,
+  "equal_flow_correction_zero": true,
+  "remote_background_m_s": [
+    -0.39999943293034934,
+    8.40182188915049e-08
+  ],
+  "temporal_scheme": "local drag force sampled each 0.02 s and held for 20 native 0.001 s substeps"
+}

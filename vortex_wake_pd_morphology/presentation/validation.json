@@ -1,0 +1,12 @@
+{
+  "presentation_url": "https://docs.google.com/presentation/d/1X6HSrvL_L7XZjNDd2qv1a4vUSrzd37tSb2n5ljms0W0/edit",
+  "slide_count": 22,
+  "new_english_slides": [15,16,17,18,19,20,21,22],
+  "original_slide_ids_preserved": true,
+  "native_narrative_text_editable": true,
+  "local_issue_checker_errors": 0,
+  "local_issue_checker_warnings": 0,
+  "pdf_export_rendered_slides": 22,
+  "visual_qa": "Inspected all added pages, reviewed full-deck contact sheet, enlarged morphology renders and consolidated the straight-ahead amplitude comparison after the first render.",
+  "recorded_tests": "Six 100-scene CSVs and six 100-trace NPZ archives verified against the unchanged 6D controller hash."
+}

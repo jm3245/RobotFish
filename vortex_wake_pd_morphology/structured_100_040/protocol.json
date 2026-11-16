@@ -1,0 +1,57 @@
+{
+  "name": "structured_100_040_v1",
+  "n": 100,
+  "flow_speed_m_s": 0.4,
+  "goal_bearings_deg": [
+    0,
+    36,
+    72,
+    108,
+    144,
+    180,
+    216,
+    252,
+    288,
+    324
+  ],
+  "flow_bearings_relative_to_goal_deg": [
+    0,
+    36,
+    72,
+    108,
+    144,
+    180,
+    216,
+    252,
+    288,
+    324
+  ],
+  "design": "10x10 full factorial: one case per absolute goal bearing and relative flow bearing",
+  "goal_distances_m": [
+    1.5,
+    2.5,
+    3.5,
+    4.5,
+    5.5
+  ],
+  "distance_rule": "DISTANCES[(goal_index + flow_index) mod 5]",
+  "initial_yaw_offsets_deg": [
+    -135,
+    -45,
+    45,
+    135
+  ],
+  "yaw_rule": "HEADING_OFFSETS[(goal_index + 3*flow_index) mod 4]; S00_00 uses slot 2 for balance",
+  "start_xy_m": [
+    0,
+    0
+  ],
+  "initial_z_m": 0.5,
+  "initial_joint_angles_rad": 0,
+  "initial_velocities": 0,
+  "flow": "constant, horizontal, world-frame",
+  "scene_id_rule": "S<goal_index 00..09>_<flow_index 00..09>",
+  "trial_limit_s": 60,
+  "control_dt_s": 0.02,
+  "note": "Geometric coverage is guaranteed. Dynamic reachability at 0.40 m/s is measured, not assumed."
+}

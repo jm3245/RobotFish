@@ -1,0 +1,23 @@
+{
+  "seed": 1027001,
+  "pilot_steps": 25000,
+  "formal_steps": 10000000,
+  "n_envs": 8,
+  "control_dt": 0.02,
+  "episode_seconds": 60,
+  "torque_limit_Nm": 12.0,
+  "success_radius_xy_m": 0.3,
+  "success_radius_xyz_m": 0.5,
+  "success_dwell_steps": 10,
+  "fixed_start": [0.0, 0.0],
+  "fixed_target": [2.0, 0.0],
+  "reward": {"progress": 4.0, "path_per_second": 0.5, "action_per_second": 0.02, "time_per_second": 0.02, "success": 30.0, "failure": -8.0},
+  "sac": {"learning_rate": 0.0003, "buffer_size": 1000000, "learning_starts": 10000, "batch_size": 256, "tau": 0.005, "gamma": 0.995, "train_freq": 1, "gradient_steps": 1, "ent_coef": "auto_0.1", "target_entropy": -4.0},
+  "curriculum": {"minimum_stage_steps": 500000, "gate_every_steps": 250000, "gate_episodes": 20, "gate_success_rate": 0.8, "gate_mean_deviation_m": 0.25, "gate_physical_failure_rate": 0.0, "consecutive_passes": 2, "stages": ["fixed_still", "random_still", "constant", "varying", "complex"]},
+  "checkpoint_every_steps": 500000,
+  "test_episodes_per_flow": 50,
+  "validation_seed": 73102700,
+  "test_seed": 93102700,
+  "stable_criterion": {"each_flow_success_rate": 0.8, "each_flow_mean_path_deviation_m": 0.25, "physical_failure_rate": 0.0},
+  "flows": ["still", "constant", "rotating", "strength", "reversing", "dynamic3d", "heldout"]
+}

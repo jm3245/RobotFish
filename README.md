@@ -1,5 +1,9 @@
 # Underwater Robot Fish Simulation in MuJoCo
 
+## Prescribed vortex wake navigation experiments
+
+The [curated PD and vortex wake bundle](vortex_wake_pd_morphology/README.md) includes five fish morphology XML models, the six-input controller, 100 upstream cylinder-target scenes, paired amplitude tests, recorded trajectories, English figures and a research presentation update. The wake uses a prescribed finite vortex train with local body drag corrections. See the bundle README for its assumptions and reproduction commands.
+
 Just creating fish. [Website](https://srl-ethz.github.io/website_fishsim/). [Paper](http://arxiv.org/abs/2602.23283).
 
 

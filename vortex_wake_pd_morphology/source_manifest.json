@@ -1,0 +1,1009 @@
+{
+  "name": "RobotFish_VortexWake_PD_Morphology_20261116",
+  "file_count": 167,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 83,
+      "sha256": "3dce621eef7b1a81703baf8574d3c2a617c6f3b45572f13486f72972858ea79b",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 187,
+      "sha256": "f07e6cc53974968c6db49ba239b85bfcb01fac22aee48110ad606d129e4d1200",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "controllers/flow_aware_8d.py",
+      "source": "D:\\EEL_MOJOCO\\flow_pd_redesign\\controller.py",
+      "size_bytes": 4186,
+      "sha256": "e0ad2794f0504441c6f888313e2e0b15874ea41340c1a465ffad38722c840b2e"
+    },
+    {
+      "path": "controllers/heading_first_6d.py",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\13_SAC_13D_BiasAmplitudeFilter05_20261104\\direct_line_heading_first_6d.py",
+      "size_bytes": 3931,
+      "sha256": "0fd83b1824e9ec76c62ffa7a6c3db7350c1d4ef1960ea89a9e808af927237a79"
+    },
+    {
+      "path": "DIRECTORY_GUIDE_zh.md",
+      "size_bytes": 5141,
+      "sha256": "d58b32877870506e1bda7d59a423a6c1e294f6b3130d8f02779e3d693b63149e",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "eel_swimming/assets/eel_pool_v4_scene.xml",
+      "source": "D:\\EEL_MOJOCO\\eel_swimming\\assets\\eel_pool_v4_scene.xml",
+      "size_bytes": 16293,
+      "sha256": "79973469e0ddf327c10974b4351d4a75db20e6a91d66468a3cf5d076c2475897"
+    },
+    {
+      "path": "eel_swimming/assets/eel_pool_v4_visuals.xml",
+      "source": "D:\\EEL_MOJOCO\\eel_swimming\\assets\\eel_pool_v4_visuals.xml",
+      "size_bytes": 6841,
+      "sha256": "fbb342eb531703dfa7fbe6ef2abbfe8817d98d6126cec3f823878eaff53cfc63"
+    },
+    {
+      "path": "environment_reference.json",
+      "size_bytes": 318,
+      "sha256": "58e691e6c452a42df914a21cacdee2f7f354d47a41ee3bc4c2b0d4621f603e0c",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/arrival_rates.png",
+      "size_bytes": 65080,
+      "sha256": "58e8b95e287110eb16e3ef4680bf06ac34a2bc06f048250567aa051d4e1789f0",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/check_coupling.py",
+      "size_bytes": 1387,
+      "sha256": "bab2924c54f1ee0d3f23c175fd6bbab46289ca294e91467242611fe721e27d90",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/coupling_check.json",
+      "size_bytes": 304,
+      "sha256": "3af27b9fcfba1163026f7bc16ee32f8b5a675f4ce0e17fbaa3098da5fd938d30",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/plot.py",
+      "size_bytes": 6607,
+      "sha256": "5184d64ad9b146becf404208d010ace1fe611fee79cbe2e1f27fc2e9e4b38268",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/README_zh.md",
+      "size_bytes": 4569,
+      "sha256": "7d912bc1766b9bc7c1a33d156dc7d93d4c54091b26772bce95ab1e4ff4085959",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/RESULTS_zh.md",
+      "size_bytes": 769,
+      "sha256": "78bfe6e3e3ee3aa932c4c0d88f3317b7f27cad482ad4254f1034e2e85c960282",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/run.py",
+      "size_bytes": 6965,
+      "sha256": "0c62fff6e678d85d5f2ede25415919a7e5e8f026b2bf18e2544222ec2571a248",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/scenes.json",
+      "size_bytes": 67734,
+      "sha256": "6dbbe71425176c9e29832fe69a5ba657679528937914d29dad1de36926f789d6",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/summarize.py",
+      "size_bytes": 1804,
+      "sha256": "9a0f8ebeda675ed2f719378aa2b1f15376d4a25d66915fbdf2df5b7d154bea3c",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/summary.json",
+      "size_bytes": 1570,
+      "sha256": "d0be28943e072e795319962974ee251fbbccbaa819cd280594f23fd0ee08ddcd",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/uniform_A0.38.csv",
+      "size_bytes": 9400,
+      "sha256": "6a68b54fa22b123d56a10ab52a3e0b284466769b416db83681122593a87a410c",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/uniform_A0.38_summary.json",
+      "size_bytes": 212,
+      "sha256": "cfa20940c9dcffad1db72abc85e46b4c6f693fa5e19287769f654b0e0cb08a5f",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/uniform_A0.38_traces.npz",
+      "size_bytes": 2354954,
+      "sha256": "caf8c01f6860b568ca0be8ff7b8d0f05ae1d8f48baf066ae541319703f2ead25",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/uniform_A0.42.csv",
+      "size_bytes": 9409,
+      "sha256": "82c4e5bb81a697f5e7094075797a0e08965afb602bfff63b9c2fae4bc79980c3",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/uniform_A0.42_summary.json",
+      "size_bytes": 212,
+      "sha256": "e2e03e2b230ec2470eebca6f4b4d4b50c53a9835d2884592e0ad19d65d0cf385",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/uniform_A0.42_traces.npz",
+      "size_bytes": 2350200,
+      "sha256": "788e4a9051a3bc9e702718c8c12c48fd459c463d9b949f1d0a8226827d3e0650",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/uniform_A0.75.csv",
+      "size_bytes": 10537,
+      "sha256": "ffd1a13359b772f0b5d3f00cb17f9d3a8848dfdcde4112e38b52130a804d1fd2",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/uniform_A0.75_summary.json",
+      "size_bytes": 212,
+      "sha256": "fc49f31e57713f9dd143dab04d14caf2ba010e3eb4b3847096ffdb5884394d6f",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/uniform_A0.75_traces.npz",
+      "size_bytes": 748541,
+      "sha256": "9630ddbdd676094dbe123b2cac8049c88a0f8a4fa64b5ddd09a0725bcedb6999",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/wake_A0.38.csv",
+      "size_bytes": 9151,
+      "sha256": "bc34a2e8b1beb12e38bcef14640cbd5163ec3caef49bd789fa5791650f06185b",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/wake_A0.38_summary.json",
+      "size_bytes": 208,
+      "sha256": "32f1d255343e7b5336cbd34b3d42ab5c23e7c78f2574d8d5d5e02b7efd112b55",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/wake_A0.38_traces.npz",
+      "size_bytes": 2357283,
+      "sha256": "449a45c3aa6da904eecc0bd19cbec42c76939e7906531823d3d30db65259e333",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/wake_A0.42.csv",
+      "size_bytes": 9106,
+      "sha256": "99a60c6cdd886a430de812accd09a626b0505b84f2ea25a648e9316db8cf8e8d",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/wake_A0.42_summary.json",
+      "size_bytes": 208,
+      "sha256": "d7f70919cb7b671357903fd79bb532072287a3d87dcfe472ba47402504b5392b",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/wake_A0.42_traces.npz",
+      "size_bytes": 2362732,
+      "sha256": "00042d788e07b61d95cb93d52d775848409376242172e9f2aac470916463839e",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/wake_A0.75.csv",
+      "size_bytes": 10348,
+      "sha256": "6d0d60ee9ee66fa530d961db13e9fd5c2e7a0b7e4d6f0102ee8d9df31d3fd243",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/wake_A0.75_summary.json",
+      "size_bytes": 209,
+      "sha256": "743b9893a06d2c230a7bec3e62803ffa4fa98b51ae84f740b5a7398ab3ecf748",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/wake_A0.75_traces.npz",
+      "size_bytes": 695708,
+      "sha256": "df019d4570f0fdd12c5021fc72166b7bb26819c83e5a90001536a5ea5e82d493",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/wake_fish_setup.png",
+      "size_bytes": 524981,
+      "sha256": "adc443f9d40593ee3747f5074fdbf6b9134a774aabbde7f5246bbad516d75856",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/wake_trajectories_9.png",
+      "size_bytes": 1109198,
+      "sha256": "cd7bfa618b161dea13f2c90c52859276e016388d37d730e28bde44215369a8db",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/front180_wake/wake_vorticity_fish.png",
+      "size_bytes": 197408,
+      "sha256": "a08ad9a944ab7f8230c1484d0dc17c4abb3a346ca34f34e2ebfa78d11c322813",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/README_zh.md",
+      "size_bytes": 3119,
+      "sha256": "0ecfbf29e49d6da585c22b86be9af90d38d3f2ec3e2aa0dc01a171ec55e6df81",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/uniform_flow/conditions.json",
+      "size_bytes": 1508,
+      "sha256": "5ae3a9240c806bea1b0181747c8362100b4d33c4633866bd32942333fc245d7c",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/arrival_comparison.png",
+      "size_bytes": 60558,
+      "sha256": "bbcf96f899f350f668e36b827f74d5f8281e7bcbb0936691f33fe281e3d81e12",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/blind_6d_A0p38.csv",
+      "size_bytes": 8843,
+      "sha256": "4152c1986eff57243ab4cd7004703f9382ea9255e19e189c1e3d9036a5796fab",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/blind_6d_A0p38_summary.json",
+      "size_bytes": 247,
+      "sha256": "3661bbf292262666623b2ee590e8eaf9e683f2c7409a25a82ea1a9c0a2ce1d0e",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/blind_6d_A0p42.csv",
+      "size_bytes": 8845,
+      "sha256": "78514add87d1d7cbcab16395e6dd6d15124ad952a8f2cfb6154184fd24be317a",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/blind_6d_A0p42_summary.json",
+      "size_bytes": 247,
+      "sha256": "05aa3af4d396cfa289d5879be03d566957b06993c8f81d4c0e311dc12c230d33",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/blind_6d_A0p75.csv",
+      "size_bytes": 10869,
+      "sha256": "81efeba015e532a5a6bd55ec3ba1e677b982686999c16f78e1f529988118c9cc",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/blind_6d_A0p75_summary.json",
+      "size_bytes": 249,
+      "sha256": "240364b293a74c001eececbc0d8efcf1ce680e6f713a0b9173ea0224647df634",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/cylinder_success_map.png",
+      "size_bytes": 62725,
+      "sha256": "f587fa391d234de93457bbd2362e63ff85a120aa1371e1040cdc42da249d020c",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/heading_first_6d_A0p38.csv",
+      "size_bytes": 10162,
+      "sha256": "3f84aea7ea90187cb67c5e94816edd4b7f50ec97edb7077c64c6e16b9b5bdb16",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/heading_first_6d_A0p38_summary.json",
+      "size_bytes": 255,
+      "sha256": "9625704c171f15dcb3e35ac22558d1bd2f84cc8f6bd3ec353db634528f54fb71",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/heading_first_6d_A0p42.csv",
+      "size_bytes": 9849,
+      "sha256": "bd866fc6604150d2ec5754e211698218539312fb9ebaca0a30ba62143fbc91d0",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/heading_first_6d_A0p42_summary.json",
+      "size_bytes": 255,
+      "sha256": "bcff50424898979f42374a0e1ea93c94a3a4a0685110003590cd03e1c6e96796",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/heading_first_6d_A0p75.csv",
+      "size_bytes": 9451,
+      "sha256": "0d519d76927f92c66d6e7c47b1d7faed86117714ba762af1ae49038f62f0c091",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/heading_first_6d_A0p75_summary.json",
+      "size_bytes": 255,
+      "sha256": "7b6095e13353c01c93a6c5b040569f663d45f7d43f28103582a584771f9587b2",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/make_scenes.py",
+      "size_bytes": 3310,
+      "sha256": "23a7d35b0fd07cfed558ca73b8f1555b3350398ecc601b8de71a752e0d62036d",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/plot_results.py",
+      "size_bytes": 2812,
+      "sha256": "8551a3a2ff21f279c9ca1c973a697c5834f43bd7bda08f2a9a9b749e281f1df0",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/protocol.json",
+      "size_bytes": 1716,
+      "sha256": "962b03c139113b411a5c4e07d1666c7ec8c2e3cf8884ab7f2bef43fba56df3fa",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/README_zh.md",
+      "size_bytes": 6761,
+      "sha256": "d573d8e90cbd12e86ba23bf81de6b5a4d331d105dbbd0ccf378ef4893303eb8a",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/run_benchmark.py",
+      "size_bytes": 5922,
+      "sha256": "f0f7111d9ab70e83c97c087f4cb19d0e3d96d887f80aaeb7cbdb9b809a2a2638",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/upstream_cylinder_040/scenes.json",
+      "size_bytes": 77333,
+      "sha256": "fb17712d485d9afdbb030a3fb29571bc6521ea58fd58f533df501a1f6aec7041",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "experiments/vortex_wake/conditions.json",
+      "size_bytes": 1403,
+      "sha256": "e6ebe9c7cd61a93b1880646114ce446227be6bf5602b775e3b71766987bb7557",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "fish_morphologies/best_gaits.json",
+      "source": "D:\\EEL_MOJOCO\\fish_morphologies\\best_gaits.json",
+      "size_bytes": 4791,
+      "sha256": "6b61bc48cb53a431793c8ffd20e95ff289c0c5724d2e8717d36114cf40dac173"
+    },
+    {
+      "path": "fish_morphologies/fish_N3.xml",
+      "source": "D:\\EEL_MOJOCO\\fish_morphologies\\fish_N3.xml",
+      "size_bytes": 10528,
+      "sha256": "8fd356992fd1d2431d519570fd56a33af4a2bc27173cbe71c5f1cec94be08768"
+    },
+    {
+      "path": "fish_morphologies/fish_N4.xml",
+      "source": "D:\\EEL_MOJOCO\\fish_morphologies\\fish_N4.xml",
+      "size_bytes": 11068,
+      "sha256": "993eec15b393efcf0bc74073997d6637aaf95d78603275bdbb068c577a0ae7d4"
+    },
+    {
+      "path": "fish_morphologies/fish_N5.xml",
+      "source": "D:\\EEL_MOJOCO\\fish_morphologies\\fish_N5.xml",
+      "size_bytes": 11674,
+      "sha256": "a1acd145ebc0790e5adda267bb658c8dd043bc97c17271ba38c18b2bd4114514"
+    },
+    {
+      "path": "fish_morphologies/fish_N6.xml",
+      "source": "D:\\EEL_MOJOCO\\fish_morphologies\\fish_N6.xml",
+      "size_bytes": 12294,
+      "sha256": "bc9a2fac93f480177d7c1bcb35c2cc10d5779b456402bf948c6b807cc32ed2a1"
+    },
+    {
+      "path": "fish_morphologies/fish_N8.xml",
+      "source": "D:\\EEL_MOJOCO\\fish_morphologies\\fish_N8.xml",
+      "size_bytes": 13504,
+      "sha256": "1143be6da99ce1cb4566f1f58a741dacba4be3674998524e58795859e393717f"
+    },
+    {
+      "path": "fish_morphologies/generate_fish.py",
+      "source": "D:\\EEL_MOJOCO\\fish_morphologies\\generate_fish.py",
+      "size_bytes": 7810,
+      "sha256": "686271d981070ca30d9f6515f8e45afebfb26d595203c51df18faa786456f7f4"
+    },
+    {
+      "path": "fish_morphologies/REPORT.md",
+      "source": "D:\\EEL_MOJOCO\\fish_morphologies\\REPORT.md",
+      "size_bytes": 4500,
+      "sha256": "17ea8930c8a7d225b1319afa779f3fdd5c975451b2a0326af30ff222f113a2a6"
+    },
+    {
+      "path": "fish_morphologies/swim_results.csv",
+      "source": "D:\\EEL_MOJOCO\\fish_morphologies\\swim_results.csv",
+      "size_bytes": 61931,
+      "sha256": "ee0aa960beba3483027def3c992dbd5596ed64a228e34b3a224bd448fa3e9306"
+    },
+    {
+      "path": "fish_morphologies/test_swim.py",
+      "source": "D:\\EEL_MOJOCO\\fish_morphologies\\test_swim.py",
+      "size_bytes": 11479,
+      "sha256": "d1669b6d3c5071c065b57999729557f6129cc53b2b334b47459345bba87ba248"
+    },
+    {
+      "path": "flow_040_navigation/blind_6d.py",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d.py",
+      "size_bytes": 3757,
+      "sha256": "dbc15fdebee5ab31a43439ef72d320dcd4514e672879de0f30ae54b0bf00dc01"
+    },
+    {
+      "path": "flow_040_navigation/blind_6d_benchmark.py",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d_benchmark.py",
+      "size_bytes": 6436,
+      "sha256": "6edc79b8cd899133b95884094d0f52af7179f0d0c7ef983bc307342741443ab7"
+    },
+    {
+      "path": "flow_040_navigation/screen.py",
+      "size_bytes": 429,
+      "sha256": "e7f63359b848aacfe6e40d467e1f65c525f87a9e8ba2ccb062f6d6202c94b02e",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "legacy_stack/01_Baseline_Controller/core.py",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\.project\\fish_rl\\astra_direct_n4_20261027\\core.py",
+      "size_bytes": 8754,
+      "sha256": "e123f8569836388203d9efdf48de98e7753e938c42ec69988d515da4a575739b"
+    },
+    {
+      "path": "legacy_stack/01_Baseline_Controller/source_snapshot/fish_N4_entity.xml",
+      "size_bytes": 3770,
+      "sha256": "d1a1ad69d6d697f301ba850be147711702c5166dfc585a584c2802bc311fd7da",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\01_Baseline_Controller\\source_snapshot\\fish_N4_entity.xml"
+    },
+    {
+      "path": "legacy_stack/02_SAC_Based_on_Baseline/config.json",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\.project\\fish_rl\\sac_steering_xy_2m_20261027\\config.json",
+      "size_bytes": 1478,
+      "sha256": "6ec6f0423203b46a9082cc5f475282af01f8ee91b48c44af4f8b807ae67553cd"
+    },
+    {
+      "path": "legacy_stack/02_SAC_Based_on_Baseline/environment.py",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\.project\\fish_rl\\sac_steering_xy_2m_20261027\\environment.py",
+      "size_bytes": 5065,
+      "sha256": "641553447f2625ff046c53ee4b8d0fe712a078d2cf215ba46f80d7848f687ba8",
+      "migration_edit": "Resolved legacy symlink path for local astra core"
+    },
+    {
+      "path": "legacy_stack/03_SAC_PlanarFlow_0p2_0p3_20261029/config.json",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\03_SAC_PlanarFlow_0p2_0p3_20261029\\config.json",
+      "size_bytes": 1836,
+      "sha256": "709032faa06b69c20e4a2675b1448301e309dfe5a74a7c87d051cba584a9c2b6"
+    },
+    {
+      "path": "legacy_stack/03_SAC_PlanarFlow_0p2_0p3_20261029/environment.py",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\03_SAC_PlanarFlow_0p2_0p3_20261029\\environment.py",
+      "size_bytes": 2282,
+      "sha256": "f545349cf5f64f7f480f1e5211abfa23986847d902e5156b2f23442943a7b912"
+    },
+    {
+      "path": "legacy_stack/04_SAC_ProgressReward_FromScratch_20261029/config.json",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\04_SAC_ProgressReward_FromScratch_20261029\\config.json",
+      "size_bytes": 2356,
+      "sha256": "93793c44dab542051d8fe329efdf695f1e25014555e3f6a872496a537df036ff"
+    },
+    {
+      "path": "legacy_stack/04_SAC_ProgressReward_FromScratch_20261029/environment.py",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\04_SAC_ProgressReward_FromScratch_20261029\\environment.py",
+      "size_bytes": 1952,
+      "sha256": "2c63b46b4cda9527c8afba879530fd660ca895700d2bc46b73914689d8492f01"
+    },
+    {
+      "path": "legacy_stack/05_PD_FishVelocity_Feedback/controller.py",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\05_PD_FishVelocity_Feedback\\controller.py",
+      "size_bytes": 5765,
+      "sha256": "50d5c4314f1ae5c529085368dbd96a4d4e21f4971e3e0d388845d9061eb7d9c7"
+    },
+    {
+      "path": "legacy_stack/06_SAC_PDDesired_11D_RuntimeMatched_20261029/config.json",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\06_SAC_PDDesired_11D_RuntimeMatched_20261029\\config.json",
+      "size_bytes": 2660,
+      "sha256": "4fa3675726f102647064ec2fd628e72e5ceb3bbb0c42a32a5d7810cf819c75a7"
+    },
+    {
+      "path": "legacy_stack/06_SAC_PDDesired_11D_RuntimeMatched_20261029/environment.py",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\06_SAC_PDDesired_11D_RuntimeMatched_20261029\\environment.py",
+      "size_bytes": 2876,
+      "sha256": "b7b50c9aed3e80d0c9778563339774198c43cf28ba09e35cd13312c132e6ed54"
+    },
+    {
+      "path": "legacy_stack/07_SAC_PDDesired_FishVelocity_13D_20261029/config.json",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\07_SAC_PDDesired_FishVelocity_13D_20261029\\config.json",
+      "size_bytes": 2841,
+      "sha256": "997cc0b81eebe39155ec73988c6d9dc67f79675fd3f2d37218904705fe15e0c8"
+    },
+    {
+      "path": "legacy_stack/07_SAC_PDDesired_FishVelocity_13D_20261029/environment.py",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\07_SAC_PDDesired_FishVelocity_13D_20261029\\environment.py",
+      "size_bytes": 2077,
+      "sha256": "c18f15c7f87b78ca55c580fff8673578fa2591091c8b0b204dd79fc76afeb70f"
+    },
+    {
+      "path": "legacy_stack/1027_formal/config.json",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\.project\\1027_formal\\config.json",
+      "size_bytes": 1311,
+      "sha256": "5c2f7c8b8c7ef45d57d1d0a1777a3401c34a3737fc1db4a4e77032902ead2dbf"
+    },
+    {
+      "path": "legacy_stack/1027_formal/environment.py",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\.project\\1027_formal\\environment.py",
+      "size_bytes": 10085,
+      "sha256": "1e256df41d99f7e90da7a881e854782fe0eb1f69f1f2b8ccb68b85bcfdd33d28"
+    },
+    {
+      "path": "legacy_stack/1027_formal/source_snapshot/fish_N4.xml",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\.project\\1027_formal\\source_snapshot\\fish_N4.xml",
+      "size_bytes": 11068,
+      "sha256": "993eec15b393efcf0bc74073997d6637aaf95d78603275bdbb068c577a0ae7d4"
+    },
+    {
+      "path": "legacy_stack/1027_formal/source_snapshot/fish_N4_entity.xml",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\.project\\1027_formal\\source_snapshot\\fish_N4_entity.xml",
+      "size_bytes": 3770,
+      "sha256": "d1a1ad69d6d697f301ba850be147711702c5166dfc585a584c2802bc311fd7da"
+    },
+    {
+      "path": "legacy_stack/12_SAC_13D_BiasFilter05_20261030/config.json",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\12_SAC_13D_BiasFilter05_20261030\\config.json",
+      "size_bytes": 2777,
+      "sha256": "f8c01e90ff7afe94aa664b6ae3628e358d7074e89946a7337325f8ae443e3399"
+    },
+    {
+      "path": "legacy_stack/12_SAC_13D_BiasFilter05_20261030/environment.py",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\12_SAC_13D_BiasFilter05_20261030\\environment.py",
+      "size_bytes": 2278,
+      "sha256": "4db1e8872278776022eb808b9af1d6c17a83f1f383835eeadc0c378a976225e6"
+    },
+    {
+      "path": "legacy_stack/13_SAC_13D_BiasAmplitudeFilter05_20261104/config.json",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\13_SAC_13D_BiasAmplitudeFilter05_20261104\\config.json",
+      "size_bytes": 3186,
+      "sha256": "ab47c6f5811551d7f1a0850d7cdc782769443985e6c39eb87da2686aa5a57b2c"
+    },
+    {
+      "path": "legacy_stack/13_SAC_13D_BiasAmplitudeFilter05_20261104/environment.py",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\13_SAC_13D_BiasAmplitudeFilter05_20261104\\environment.py",
+      "size_bytes": 3419,
+      "sha256": "63537c5e68ec21ff74cd5f6f2d65630f30048851a97b9e064f6aba2636eaeaf2"
+    },
+    {
+      "path": "legacy_stack/fish_rl/astra_direct_n4_20261027/core.py",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\.project\\fish_rl\\astra_direct_n4_20261027\\core.py",
+      "size_bytes": 8756,
+      "sha256": "b4dfad79969d5380049016f51cb1068d461ef4ca82940f9bf0a483700d661a60"
+    },
+    {
+      "path": "legacy_stack/fish_rl/astra_direct_n4_20261027/frozen/controllers.json",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\.project\\fish_rl\\astra_direct_n4_20261027\\frozen\\controllers.json",
+      "size_bytes": 1723,
+      "sha256": "4acbdea0d681a62f19a34e10b0c04cf3b0fe8935c4154210935aeec09447fb94"
+    },
+    {
+      "path": "legacy_stack/fish_rl/astra_direct_n4_20261027/source_snapshot/fish_N4_entity.xml",
+      "source": "D:\\Fish_Baseline_PD_and_SAC_20261028\\.project\\fish_rl\\astra_direct_n4_20261027\\source_snapshot\\fish_N4_entity.xml",
+      "size_bytes": 3770,
+      "sha256": "d1a1ad69d6d697f301ba850be147711702c5166dfc585a584c2802bc311fd7da"
+    },
+    {
+      "path": "make_cylinder_control.py",
+      "size_bytes": 1716,
+      "sha256": "a0a5a9a6518022a0396fa68c48c4ce1e9ebdaca7944941e37a72c2fa18ed11f5",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "models/fish_N4_cylinder_only.xml",
+      "size_bytes": 11491,
+      "sha256": "88ac15491a1d186c0ce6c02d5b71928640750149639c69eea703cc10daaa303a",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/arrival_rates_en.png",
+      "size_bytes": 64272,
+      "sha256": "1a905d12a6929c279908ec4958205723a1805385b2e77f9a83af0689ee513ab9",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/fish_morphologies_en.png",
+      "size_bytes": 154356,
+      "sha256": "48fbcfe52234d824f2928f1aecfec05685f885ceef63ffb2a0da9ef4699623c0",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/straight_amplitudes_en.png",
+      "size_bytes": 781967,
+      "sha256": "9268d8eba78a5b31bb8bb97645541bef9f6d66dc18cf390072f6a7d5ce910fcb",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/target_layout_en.png",
+      "size_bytes": 339021,
+      "sha256": "89d36714e3f4ca68ceaec0901cc8a8edd500b431dc06cdf3c0cd6c9fc278affd",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/trace_A0.38_F01_01.png",
+      "size_bytes": 147083,
+      "sha256": "897f031e5b3e4e1baf6cbf4fb860ad1895d8782bad2c78667ea96f55fc2bb5b8",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/trace_A0.38_F12_01.png",
+      "size_bytes": 178562,
+      "sha256": "22a452ab46c9d4cdeb251a2a33ffda5bdc9eeb32566eb77d312a6e53d0682bb2",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/trace_A0.38_F23_01.png",
+      "size_bytes": 149910,
+      "sha256": "c4895a2a6da4bb711a95d79275d929cf2563fc93f101a203c4ad1d01df04a2b8",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/trace_A0.42_F01_01.png",
+      "size_bytes": 147013,
+      "sha256": "dfcdae1f8d88982e5a15b6280dd4fd21a6a3fe72b0b2207e4f5dfe6392b10a5f",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/trace_A0.42_F12_01.png",
+      "size_bytes": 196969,
+      "sha256": "f07717eaecf84fd96b3ef3676b0f45256b512589dc9fce352b5dd4a98bbd634b",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/trace_A0.42_F23_01.png",
+      "size_bytes": 113765,
+      "sha256": "03a1027a7b7ad7114bcb732ab653f669c62562f7f32039962f2036d0c44b18ba",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/trace_A0.75_F01_01.png",
+      "size_bytes": 124902,
+      "sha256": "22c73a1be708fab9d1fcebf1eefc509ba7184b6962b25e791350814575adb18b",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/trace_A0.75_F12_01.png",
+      "size_bytes": 248202,
+      "sha256": "af7ee7c98f662b9fbcc48a19f3897722d31ed0fcff931f40b7dd0d978b70031c",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/trace_A0.75_F23_01.png",
+      "size_bytes": 119253,
+      "sha256": "72027556809ad44cbc2b23384949c73669876acdfbfab452256d76152747e861",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/vorticity_en.png",
+      "size_bytes": 209212,
+      "sha256": "f4e9cc3cfb4b86e4c13cdf477f651923da4748d59771cc2e65d5bfd1ee41a992",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/wake_field_en.png",
+      "size_bytes": 361095,
+      "sha256": "1b0f732878bbc29c5d3b4897a2296b4fb63e18e7b2b08fc72dc2156119d6d807",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/figures_en/wake_fish_setup_en.png",
+      "size_bytes": 771391,
+      "sha256": "6ab67073abbfd0aa867aa278f4d16b2adfba8667505730d1519414d276334f13",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/make_figures_en.py",
+      "size_bytes": 8059,
+      "sha256": "6245e544e4479ccb2eb7b8f301a303a6cfad7333f2d98d3880685c5512e31c27",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/publish_bundle.py",
+      "size_bytes": 822,
+      "sha256": "e15c51021c9d487b59630f6d33ad02480fecd7fffa16e3e0453c143017cd6eb9",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/README.md",
+      "size_bytes": 1415,
+      "sha256": "a1eb193c965fba748942eb930c95fb9cb71033360e132a88707f936a6a667730",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/render_deck.py",
+      "size_bytes": 860,
+      "sha256": "000a4cc65c0003e652ab3283b93ad19e5676b7fe0db80c7facb1a7b58a61c606",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/research_vortex_update.pdf",
+      "size_bytes": 1980802,
+      "sha256": "a9e0ad1b82cf2c5ba8552d021380a8512b43c75858f85b8f91c3379eff851ffb",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/slide-plan.json",
+      "size_bytes": 2574,
+      "sha256": "4d06bb143094e203b48cb953bfd94f8af84a1f9e6cded667b5587ad0b4f6775e",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "presentation/validation.json",
+      "size_bytes": 691,
+      "sha256": "9c5333486bfe14c4318d5686404a8db09ae3786cf1d8aec88b3d0750a1fbeb46",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 6100,
+      "sha256": "538cabf8c15329b74f664973d0040c703009c63556fafa189ef4ae229432e05b",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "README_zh.md",
+      "size_bytes": 6725,
+      "sha256": "cf70ee9c4a1e2c3a805332d0e9340f21c0413cf851db973842503e368572a14c",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "reference_cross_morph_hydro/__init__.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\__init__.py",
+      "size_bytes": 74,
+      "sha256": "f777d585d5244db0a706d68db78fe4a240a0c1b84c5989df9fd97975003f7293"
+    },
+    {
+      "path": "reference_cross_morph_hydro/audit.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\audit.py",
+      "size_bytes": 3488,
+      "sha256": "772537c29690622eb6c8214184b73ded7ae1a4e904ef227870eef499cff7e42e"
+    },
+    {
+      "path": "reference_cross_morph_hydro/config.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\config.py",
+      "size_bytes": 4694,
+      "sha256": "258a3a49b39f2ad12bf73c94bb4ac0f07af64635b4cbb61668f943a518df03e6"
+    },
+    {
+      "path": "reference_cross_morph_hydro/data.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\data.py",
+      "size_bytes": 12821,
+      "sha256": "331365e214bb459ba882f822cfec3962dce6b8d0c76f5d85280efd9515c1850a"
+    },
+    {
+      "path": "reference_cross_morph_hydro/environment.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\environment.py",
+      "size_bytes": 12566,
+      "sha256": "bf33924e73e5c8085ae39238fc98bf321f78484296271ac3a303d00b97036a46"
+    },
+    {
+      "path": "reference_cross_morph_hydro/evaluate.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\evaluate.py",
+      "size_bytes": 7958,
+      "sha256": "45b56010ad9eb4185c16400228229eb39e1e178adfaecf27c50706931b34a96f"
+    },
+    {
+      "path": "reference_cross_morph_hydro/fish_rl/mdp.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\mdp.py",
+      "size_bytes": 5166,
+      "sha256": "3ca0b47e33a48bf6e70f30571ce476bc19812dfa1db48a08d649f61639f390b4"
+    },
+    {
+      "path": "reference_cross_morph_hydro/fish_rl/omni_env_cfg.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\omni_env_cfg.py",
+      "size_bytes": 1679,
+      "sha256": "f07b38cf86f3c9f6b03b87863fe9151b8a9347d3a7af049e9bde39df8c3b68ee"
+    },
+    {
+      "path": "reference_cross_morph_hydro/fish_rl/omni_multi_wave_action.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\omni_multi_wave_action.py",
+      "size_bytes": 3274,
+      "sha256": "1cbebe221019200b88d6d3d51e1b529dd5cf5f3fedaa0d0e985e74b39034e48c"
+    },
+    {
+      "path": "reference_cross_morph_hydro/interaction.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\interaction.py",
+      "size_bytes": 5062,
+      "sha256": "69ea891387221eadb72f793cb5a989bc9ac11d6a54aa1c32e8f7d152d82b5241"
+    },
+    {
+      "path": "reference_cross_morph_hydro/learn.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\learn.py",
+      "size_bytes": 12970,
+      "sha256": "f815a26fe484cf41c0260406d249f5ddb5399b999463a8d030149d6d43be73c6"
+    },
+    {
+      "path": "reference_cross_morph_hydro/morphology.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\morphology.py",
+      "size_bytes": 3451,
+      "sha256": "b91303d9412d77e46f9ace92c1148a6fd79f0639c233a772781fcd0833609fb1"
+    },
+    {
+      "path": "reference_cross_morph_hydro/pipeline.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\pipeline.py",
+      "size_bytes": 6229,
+      "sha256": "89ebbf830461721457be56a0a6485ddba9fe6b0b54e21b643d65a4ca0905af49"
+    },
+    {
+      "path": "reference_cross_morph_hydro/preflight.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\preflight.py",
+      "size_bytes": 1400,
+      "sha256": "5e8eb4eae561770561c3a802af7c66505d85085158c47d4c35f7cf0396d2c58f"
+    },
+    {
+      "path": "reference_cross_morph_hydro/privilege.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\privilege.py",
+      "size_bytes": 5787,
+      "sha256": "e87ebf436f9c8752cb7d6de9acd87414356a81ac689a19c2121cabb76fbadf36"
+    },
+    {
+      "path": "reference_cross_morph_hydro/probe.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\probe.py",
+      "size_bytes": 1712,
+      "sha256": "c8d71ed65468865bfdaebd649962561981593de3f59460241a2ed7a6055a8af6"
+    },
+    {
+      "path": "reference_cross_morph_hydro/README_zh.md",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\README_zh.md",
+      "size_bytes": 4067,
+      "sha256": "73fa17c9c1aebee40eec80bfcc29ed220e6f1492d4ab87108d3ef5b83629456b"
+    },
+    {
+      "path": "reference_cross_morph_hydro/report.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\report.py",
+      "size_bytes": 6122,
+      "sha256": "982788f91c3c0d06fe56af27dee0206f2e00f6f1eaad95f004e8fd8113593610"
+    },
+    {
+      "path": "reference_cross_morph_hydro/teacher.py",
+      "source": "D:\\EEL_MOJOCO\\fish_rl\\cross_morph_20261021_hydro_v1\\teacher.py",
+      "size_bytes": 22462,
+      "sha256": "215df53f96c0f3d1f1f9ef13df4895112c3281ea00c1b23871c4dc0171ff83a2"
+    },
+    {
+      "path": "reference_results/blind_6d_050_a038_results.csv",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d_050_a038_results.csv",
+      "size_bytes": 18173,
+      "sha256": "8e4439405957cf4fdb73420eb2e6a541ceefe5110fb908559a3fc8bf4ee1019e"
+    },
+    {
+      "path": "reference_results/blind_6d_050_a038_summary.json",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d_050_a038_summary.json",
+      "size_bytes": 1229,
+      "sha256": "022791ca9bc0f5b1d31fd4877154b39a2f194317ad0f39b6392dc3459c5d7b1d"
+    },
+    {
+      "path": "reference_results/blind_6d_050_a042_results.csv",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d_050_a042_results.csv",
+      "size_bytes": 18520,
+      "sha256": "a542c1601d37e73a15e4e42ecfb85680239647a7005aabd2eeffa56d822774c2"
+    },
+    {
+      "path": "reference_results/blind_6d_050_a042_summary.json",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d_050_a042_summary.json",
+      "size_bytes": 1230,
+      "sha256": "41da9dfce67cd6d5da4b5a95f870a1c8e6f56a2b58d20f281e3ccddebb002d46"
+    },
+    {
+      "path": "reference_results/blind_6d_050_a075_results.csv",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d_050_a075_results.csv",
+      "size_bytes": 18677,
+      "sha256": "363a4d508d6031b11d4bcd9a8df64caa5550e9a706a6a9ce4878858c3de9b77f"
+    },
+    {
+      "path": "reference_results/blind_6d_050_a075_summary.json",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d_050_a075_summary.json",
+      "size_bytes": 1230,
+      "sha256": "64d7dbd834fafc1fb853d9f00d071fc1bdb7dc1baf0caf99025d77ca1e2f7ab4"
+    },
+    {
+      "path": "reference_results/blind_6d_cap_038_results.csv",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d_cap_038_results.csv",
+      "size_bytes": 16221,
+      "sha256": "e8d38a9f4fa8bee7222ff3b4b3f203e64dd8e77d56ea22a15aafa98dca04018a"
+    },
+    {
+      "path": "reference_results/blind_6d_cap_038_summary.json",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d_cap_038_summary.json",
+      "size_bytes": 1204,
+      "sha256": "e9e4aaeae8fa3857034781d5801f2667558232edda017e8bf1013d2c514275e8"
+    },
+    {
+      "path": "reference_results/blind_6d_cap_042_results.csv",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d_cap_042_results.csv",
+      "size_bytes": 16241,
+      "sha256": "0905f5ae1e3d420ac83aa97415c56c09aafc62663e477c7ece99f01a5cdbdf44"
+    },
+    {
+      "path": "reference_results/blind_6d_cap_042_summary.json",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d_cap_042_summary.json",
+      "size_bytes": 1204,
+      "sha256": "c890c65b7ebaaf8ad9766b9f73488626e44a1977df24ec971e5ab5c5211a3350"
+    },
+    {
+      "path": "reference_results/blind_6d_final_results.csv",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d_final_results.csv",
+      "size_bytes": 10334,
+      "sha256": "380c1723a98068adf0400738a378b2e95589875e41d5fb43fb42dedb36fddc66"
+    },
+    {
+      "path": "reference_results/blind_6d_final_summary.json",
+      "source": "D:\\EEL_MOJOCO\\flow_040_navigation\\blind_6d_final_summary.json",
+      "size_bytes": 1010,
+      "sha256": "5b34aa4658a885b6595455eb6499e2a2da75cd6e965ebffdfbfe7fafa62ada07"
+    },
+    {
+      "path": "references/paper_zh_translation.pdf",
+      "source": "C:\\Users\\TongTestTeam\\Downloads\\水下自主导航_流速梯度_NatureCommunications2025_中文全文 (1).pdf",
+      "size_bytes": 3170368,
+      "sha256": "71d69f631c7808d0c7405edd3a0e496dd653894011de8f6d0cdebc4e2361e15c"
+    },
+    {
+      "path": "refresh_manifest.py",
+      "size_bytes": 1595,
+      "sha256": "1ccd653696c4ca01322ce7e59749caad49ad4197b32e25e3f988dcd1de2d9213",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 91,
+      "sha256": "a5d1b9249a1df849e4aafcb49f3e2d62114bbc1beddb16f94cddd2c5bab9bace",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "structured_100_040/protocol.json",
+      "source": "D:\\EEL_MOJOCO\\structured_100_040\\protocol.json",
+      "size_bytes": 1165,
+      "sha256": "6bd8d423f58cf475f3b35f602faeadbeadf37c948e38259c2159a15a40da675b"
+    },
+    {
+      "path": "structured_100_040/scenes.json",
+      "source": "D:\\EEL_MOJOCO\\structured_100_040\\scenes.json",
+      "size_bytes": 84125,
+      "sha256": "af79a87d5ef9f1d60e283ca01aa67f7971061049e14f8229a239efb02c3ea3d5"
+    },
+    {
+      "path": "structured_100_050/protocol.json",
+      "source": "D:\\EEL_MOJOCO\\structured_100_050\\protocol.json",
+      "size_bytes": 1220,
+      "sha256": "1056e763d2698a27f76b6839138fa5bd102b043da4fa61b95a11c926062cfb8f"
+    },
+    {
+      "path": "structured_100_050/scenes.json",
+      "source": "D:\\EEL_MOJOCO\\structured_100_050\\scenes.json",
+      "size_bytes": 84135,
+      "sha256": "32eb0e7af824db09bbaaa24243b768a1c38fb5f254470b7c5ec59cf70c0f555c"
+    },
+    {
+      "path": "verify_bundle.py",
+      "size_bytes": 4116,
+      "sha256": "259975d3112f1ab178ba8ccd39a6d196181f7b67c2a2f0182f743dcf2be09f54",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "wake_field_preview.png",
+      "size_bytes": 277585,
+      "sha256": "144bbef7a631331f4fdf12775098a30371b2f41e92960054802603e6e76a13ee",
+      "source": "Created in this curated bundle"
+    },
+    {
+      "path": "wake_preview.py",
+      "size_bytes": 4633,
+      "sha256": "e2fa491e030979a4bc259d6d735987d5b00797a33d29284bb111c1ba4abb3c57",
+      "source": "Created in this curated bundle"
+    }
+  ]
+}
